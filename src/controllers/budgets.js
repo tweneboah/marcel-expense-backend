@@ -73,6 +73,7 @@ export const getBudgets = asyncHandler(async (req, res, next) => {
     page = 1,
     limit = 10,
     includeExpenses = "true",
+    debug = "false",
   } = req.query;
 
   // For admin users, don't filter by user ID
@@ -132,6 +133,17 @@ export const getBudgets = asyncHandler(async (req, res, next) => {
 
   console.log(`Found ${budgets.length} budgets matching filter`);
 
+  if (debug === "true") {
+    // Log budget details for debugging
+    budgets.forEach((budget) => {
+      console.log(
+        `Budget: ${budget._id}, Year: ${budget.year}, Month: ${
+          budget.month
+        }, Category: ${budget.category ? budget.category._id : "null"}`
+      );
+    });
+  }
+
   // Add actual expenses for each budget
   const budgetsWithUsage = await Promise.all(
     budgets.map(async (budget) => {
@@ -157,50 +169,161 @@ export const getBudgets = asyncHandler(async (req, res, next) => {
       } else {
         // Monthly budget
         startDate = new Date(budget.year, budget.month - 1, 1);
-        endDate = new Date(budget.year, budget.month, 0, 23, 59, 59);
+        // Ensure we capture the entire last day of the month
+        endDate = new Date(budget.year, budget.month, 0, 23, 59, 59, 999);
       }
 
       console.log(
-        `Budget period: ${startDate.toISOString()} to ${endDate.toISOString()}`
+        `Budget ${
+          budget._id
+        } period: ${startDate.toISOString()} to ${endDate.toISOString()}`
       );
 
       // Use direct date comparison instead of $expr
       const dateFilter = {
-        journeyDate: { $gte: startDate, $lte: endDate },
+        journeyDate: {
+          $gte: startDate,
+          $lte: endDate,
+        },
       };
 
       // Use the budget's user ID, not the current user's ID
       // This is important for admin views where budgets might be owned by different users
       const expenseUserFilter = { user: budget.user };
 
-      // For debugging
-      const allExpensesForUser = await Expense.find(expenseUserFilter)
-        .select("journeyDate category")
-        .sort("-journeyDate")
-        .limit(5);
+      if (debug === "true") {
+        // For debugging
+        const allExpensesForUser = await Expense.find(expenseUserFilter)
+          .select("journeyDate category")
+          .sort("-journeyDate")
+          .limit(5);
 
-      console.log(
-        `Latest expenses for user ${budget.user}:`,
-        allExpensesForUser.map(
-          (e) => `${e._id}: ${e.journeyDate.toISOString()} Cat:${e.category}`
-        )
-      );
+        console.log(
+          `Latest expenses for user ${budget.user}:`,
+          allExpensesForUser.map(
+            (e) => `${e._id}: ${e.journeyDate.toISOString()} Cat:${e.category}`
+          )
+        );
+      }
 
-      const expenseMatchQuery = {
-        ...expenseUserFilter,
-        ...dateFilter,
-        category: new mongoose.Types.ObjectId(budget.category),
-      };
+      // Skip expense calculation if category is null
+      if (!budget.category) {
+        console.log(
+          `Budget ${budget._id} has null category, skipping expense calculation`
+        );
 
-      console.log(
-        `Finding expenses for budget ${budget._id} with filters:`,
-        JSON.stringify(expenseMatchQuery)
-      );
+        // Return basic budget info without expense data
+        return {
+          ...budgetObj,
+          usage: {
+            totalExpenses: 0,
+            totalCost: 0,
+            totalDistance: 0,
+            usagePercentage: 0,
+            status: "none",
+            remaining: budget.amount,
+          },
+          periodName:
+            budget.month === 0
+              ? `Annual ${budget.year}`
+              : `${getMonthName(budget.month)} ${budget.year}`,
+          categoryMissing: true,
+        };
+      }
+
+      // For debugging, find a few expenses for this user
+      if (debug === "true") {
+        const sampleExpenses = await Expense.find({ user: budget.user })
+          .select("journeyDate category")
+          .sort("-journeyDate")
+          .limit(5);
+
+        console.log(
+          `Sample expenses for user ${budget.user}:`,
+          sampleExpenses.map(
+            (e) => `${e._id}: ${e.journeyDate.toISOString()} Cat:${e.category}`
+          )
+        );
+      }
 
       // Find expenses that match this budget's category, year, and month
+      const expenseMatchFilter = {
+        user: budget.user,
+        category: budget.category._id,
+        journeyDate: {
+          $gte: startDate,
+          $lte: endDate,
+        },
+      };
+      console.log(
+        `Using expense filter: ${JSON.stringify(expenseMatchFilter)}`
+      );
+
+      // Direct query for expenses to ensure consistent results
+      const directExpenses = await Expense.find(expenseMatchFilter).sort(
+        "-journeyDate"
+      );
+
+      if (directExpenses.length > 0) {
+        console.log(
+          `Direct query found ${directExpenses.length} expenses for budget ${budget._id}`
+        );
+
+        // Calculate totals manually
+        let totalCost = 0;
+        let totalDistance = 0;
+
+        for (const exp of directExpenses) {
+          if (debug === "true") {
+            console.log(
+              `Expense: ${
+                exp._id
+              }, Date: ${exp.journeyDate.toISOString()}, Cost: ${
+                exp.totalCost
+              } CHF`
+            );
+          }
+          totalCost += exp.totalCost;
+          totalDistance += exp.distance;
+        }
+
+        const usage = {
+          actualCost: parseFloat(totalCost.toFixed(2)),
+          actualDistance: parseFloat(totalDistance.toFixed(2)),
+          expenseCount: directExpenses.length,
+          remainingAmount: parseFloat((budget.amount - totalCost).toFixed(2)),
+          usagePercentage: parseFloat(
+            ((totalCost / budget.amount) * 100).toFixed(1)
+          ),
+        };
+
+        // Determine status based on thresholds
+        let status = "under";
+        if (usage.usagePercentage >= budget.criticalThreshold) {
+          status = "critical";
+        } else if (usage.usagePercentage >= budget.warningThreshold) {
+          status = "warning";
+        }
+
+        res.status(200).json({
+          success: true,
+          data: {
+            ...budget._doc,
+            usage,
+            status,
+            periodLabel:
+              budget.month > 0
+                ? `${getMonthName(budget.month)} ${budget.year}`
+                : `${budget.year} (Annual)`,
+          },
+        });
+        return;
+      }
+
+      // Fall back to aggregate if direct query didn't find anything
       const expenses = await Expense.aggregate([
         {
-          $match: expenseMatchQuery,
+          $match: expenseMatchFilter,
         },
         {
           $group: {
@@ -281,6 +404,8 @@ export const getBudgets = asyncHandler(async (req, res, next) => {
  * @access  Private
  */
 export const getBudget = asyncHandler(async (req, res, next) => {
+  const { debug = "false" } = req.query;
+
   const budget = await Budget.findById(req.params.id).populate(
     "category",
     "name color"
@@ -297,6 +422,31 @@ export const getBudget = asyncHandler(async (req, res, next) => {
   // For regular users, check if they own the budget
   if (req.user.role !== "admin" && budget.user.toString() !== req.user.id) {
     return next(new ErrorResponse(`Not authorized to access this budget`, 403));
+  }
+
+  // Handle null category case
+  if (!budget.category) {
+    console.warn(`Budget ${budget._id} has null category`);
+
+    return res.status(200).json({
+      success: true,
+      data: {
+        ...budget._doc,
+        usage: {
+          actualCost: 0,
+          actualDistance: 0,
+          expenseCount: 0,
+          remainingAmount: budget.amount,
+          usagePercentage: 0,
+        },
+        status: "none",
+        periodLabel:
+          budget.month > 0
+            ? `${getMonthName(budget.month)} ${budget.year}`
+            : `${budget.year} (Annual)`,
+        categoryMissing: true,
+      },
+    });
   }
 
   // Calculate expense totals for this budget
@@ -330,43 +480,108 @@ export const getBudget = asyncHandler(async (req, res, next) => {
     journeyDate: { $gte: startDate, $lte: endDate },
   };
 
-  // For debugging, check if we have any expenses at all for this category
-  const totalExpensesForCategory = await Expense.countDocuments({
-    category: new mongoose.Types.ObjectId(budget.category),
-  });
-  console.log(
-    `Total expenses found for category ${budget.category}: ${totalExpensesForCategory}`
-  );
+  if (debug === "true") {
+    // For debugging, check if we have any expenses at all for this category
+    const totalExpensesForCategory = await Expense.countDocuments({
+      category: new mongoose.Types.ObjectId(budget.category._id),
+    });
+    console.log(
+      `Total expenses found for category ${budget.category._id}: ${totalExpensesForCategory}`
+    );
 
-  // For debugging, check if we have any expenses at all for this user
-  const totalExpensesForUser = await Expense.countDocuments({
-    user: budget.user,
-  });
-  console.log(
-    `Total expenses found for user ${budget.user}: ${totalExpensesForUser}`
-  );
+    // For debugging, check if we have any expenses at all for this user
+    const totalExpensesForUser = await Expense.countDocuments({
+      user: budget.user,
+    });
+    console.log(
+      `Total expenses found for user ${budget.user}: ${totalExpensesForUser}`
+    );
 
-  // For debugging, find a few expenses for this user
-  const sampleExpenses = await Expense.find({ user: budget.user })
-    .select("journeyDate category")
-    .sort("-journeyDate")
-    .limit(5);
+    // For debugging, find a few expenses for this user
+    const sampleExpenses = await Expense.find({ user: budget.user })
+      .select("journeyDate category")
+      .sort("-journeyDate")
+      .limit(5);
 
-  console.log(
-    `Sample expenses for user ${budget.user}:`,
-    sampleExpenses.map(
-      (e) => `${e._id}: ${e.journeyDate.toISOString()} Cat:${e.category}`
-    )
-  );
+    console.log(
+      `Sample expenses for user ${budget.user}:`,
+      sampleExpenses.map(
+        (e) => `${e._id}: ${e.journeyDate.toISOString()} Cat:${e.category}`
+      )
+    );
+  }
 
   // Find expenses that match this budget's category, year, and month
   const expenseMatchFilter = {
-    ...userFilter,
-    ...dateFilter,
-    category: new mongoose.Types.ObjectId(budget.category),
+    user: budget.user,
+    category: budget.category._id,
+    journeyDate: {
+      $gte: startDate,
+      $lte: endDate,
+    },
   };
   console.log(`Using expense filter: ${JSON.stringify(expenseMatchFilter)}`);
 
+  // Direct query for expenses to ensure consistent results
+  const directExpenses = await Expense.find(expenseMatchFilter).sort(
+    "-journeyDate"
+  );
+
+  if (directExpenses.length > 0) {
+    console.log(
+      `Direct query found ${directExpenses.length} expenses for budget ${budget._id}`
+    );
+
+    // Calculate totals manually
+    let totalCost = 0;
+    let totalDistance = 0;
+
+    for (const exp of directExpenses) {
+      if (debug === "true") {
+        console.log(
+          `Expense: ${exp._id}, Date: ${exp.journeyDate.toISOString()}, Cost: ${
+            exp.totalCost
+          } CHF`
+        );
+      }
+      totalCost += exp.totalCost;
+      totalDistance += exp.distance;
+    }
+
+    const usage = {
+      actualCost: parseFloat(totalCost.toFixed(2)),
+      actualDistance: parseFloat(totalDistance.toFixed(2)),
+      expenseCount: directExpenses.length,
+      remainingAmount: parseFloat((budget.amount - totalCost).toFixed(2)),
+      usagePercentage: parseFloat(
+        ((totalCost / budget.amount) * 100).toFixed(1)
+      ),
+    };
+
+    // Determine status based on thresholds
+    let status = "under";
+    if (usage.usagePercentage >= budget.criticalThreshold) {
+      status = "critical";
+    } else if (usage.usagePercentage >= budget.warningThreshold) {
+      status = "warning";
+    }
+
+    res.status(200).json({
+      success: true,
+      data: {
+        ...budget._doc,
+        usage,
+        status,
+        periodLabel:
+          budget.month > 0
+            ? `${getMonthName(budget.month)} ${budget.year}`
+            : `${budget.year} (Annual)`,
+      },
+    });
+    return;
+  }
+
+  // Fall back to aggregate if direct query didn't find anything
   const expenses = await Expense.aggregate([
     {
       $match: expenseMatchFilter,
@@ -546,7 +761,7 @@ export const deleteBudget = asyncHandler(async (req, res, next) => {
     return next(new ErrorResponse(`Not authorized to delete this budget`, 403));
   }
 
-  await budget.remove();
+  await budget.deleteOne();
 
   res.status(200).json({
     success: true,
@@ -560,7 +775,7 @@ export const deleteBudget = asyncHandler(async (req, res, next) => {
  * @access  Private
  */
 export const getBudgetSummary = asyncHandler(async (req, res, next) => {
-  const { year = new Date().getFullYear() } = req.query;
+  const { year = new Date().getFullYear(), debug = "false" } = req.query;
   const yearInt = parseInt(year);
 
   // For admin users, don't filter by user ID
@@ -598,28 +813,32 @@ export const getBudgetSummary = asyncHandler(async (req, res, next) => {
     `Using expense match filter: ${JSON.stringify(expenseMatchFilter)}`
   );
 
-  // For debugging, check if we have any expenses at all for this year
-  const totalExpensesForYear = await Expense.countDocuments(expenseMatchFilter);
-  console.log(
-    `Total expenses found for year ${yearInt}: ${totalExpensesForYear}`
-  );
-
-  // If no expenses found, check a sample
-  if (totalExpensesForYear === 0) {
-    const sampleExpenses = await Expense.find(userFilter)
-      .select("journeyDate category user")
-      .sort("-journeyDate")
-      .limit(5);
-
-    console.log(
-      `Sample expenses for user:`,
-      sampleExpenses.map(
-        (e) =>
-          `${e._id}: ${e.journeyDate.toISOString()} User:${e.user} Cat:${
-            e.category
-          }`
-      )
+  if (debug === "true") {
+    // For debugging, check if we have any expenses at all for this year
+    const totalExpensesForYear = await Expense.countDocuments(
+      expenseMatchFilter
     );
+    console.log(
+      `Total expenses found for year ${yearInt}: ${totalExpensesForYear}`
+    );
+
+    // If no expenses found, check a sample
+    if (totalExpensesForYear === 0) {
+      const sampleExpenses = await Expense.find(userFilter)
+        .select("journeyDate category user")
+        .sort("-journeyDate")
+        .limit(5);
+
+      console.log(
+        `Sample expenses for user:`,
+        sampleExpenses.map(
+          (e) =>
+            `${e._id}: ${e.journeyDate.toISOString()} User:${e.user} Cat:${
+              e.category
+            }`
+        )
+      );
+    }
   }
 
   // Get expenses grouped by month and category
@@ -654,7 +873,7 @@ export const getBudgetSummary = asyncHandler(async (req, res, next) => {
     `Found ${expenses.length} expense aggregations by month/category`
   );
   // Log a sample of what we found to aid debugging
-  if (expenses.length > 0) {
+  if (expenses.length > 0 && debug === "true") {
     console.log(`Sample expense aggregation:`, JSON.stringify(expenses[0]));
   }
 
@@ -673,51 +892,63 @@ export const getBudgetSummary = asyncHandler(async (req, res, next) => {
     let totalBudgeted = 0;
     let totalActual = 0;
 
-    const categories = monthBudgets.map((budget) => {
-      const categoryId = budget.category._id.toString();
+    const categories = monthBudgets
+      .filter((budget) => budget.category !== null) // Filter out budgets with null categories
+      .map((budget) => {
+        const categoryId = budget.category?._id.toString();
 
-      // Debug info
-      console.log(`Looking for expenses with category ID: ${categoryId}`);
-      if (monthExpenses.length > 0) {
-        const exampleCategory = monthExpenses[0].category;
-        console.log(`Example expense category type: ${typeof exampleCategory}`);
-        if (exampleCategory) {
-          console.log(`Example expense category value: ${exampleCategory}`);
+        if (!categoryId) {
+          console.warn(`Budget ${budget._id} has null category, skipping`);
+          return null;
         }
-      }
 
-      // Use toString() to ensure consistent comparison
-      const categoryExpenses = monthExpenses.find(
-        (e) => e.category && e.category.toString() === categoryId
-      );
+        // Debug info
+        if (debug === "true") {
+          console.log(`Looking for expenses with category ID: ${categoryId}`);
+          if (monthExpenses.length > 0) {
+            const exampleCategory = monthExpenses[0].category;
+            console.log(
+              `Example expense category type: ${typeof exampleCategory}`
+            );
+            if (exampleCategory) {
+              console.log(`Example expense category value: ${exampleCategory}`);
+            }
+          }
+        }
 
-      if (categoryExpenses) {
-        console.log(
-          `Found expenses for category ${categoryId} in month ${month}: ${categoryExpenses.actualCost} CHF`
+        // Use toString() to ensure consistent comparison
+        const categoryExpenses = monthExpenses.find(
+          (e) => e.category && e.category.toString() === categoryId
         );
-      } else {
-        console.log(
-          `No expenses found for category ${categoryId} in month ${month}`
-        );
-      }
 
-      const actualCost = categoryExpenses ? categoryExpenses.actualCost : 0;
-      totalBudgeted += budget.amount;
-      totalActual += actualCost;
+        if (categoryExpenses) {
+          console.log(
+            `Found expenses for category ${categoryId} in month ${month}: ${categoryExpenses.actualCost} CHF`
+          );
+        } else if (debug === "true") {
+          console.log(
+            `No expenses found for category ${categoryId} in month ${month}`
+          );
+        }
 
-      return {
-        categoryId,
-        categoryName: budget.category.name,
-        categoryColor: budget.category.color,
-        budgetedAmount: budget.amount,
-        actualAmount: actualCost,
-        remaining: parseFloat((budget.amount - actualCost).toFixed(2)),
-        usagePercentage:
-          budget.amount > 0
-            ? parseFloat(((actualCost / budget.amount) * 100).toFixed(1))
-            : 0,
-      };
-    });
+        const actualCost = categoryExpenses ? categoryExpenses.actualCost : 0;
+        totalBudgeted += budget.amount;
+        totalActual += actualCost;
+
+        return {
+          categoryId,
+          categoryName: budget.category.name,
+          categoryColor: budget.category.color,
+          budgetedAmount: budget.amount,
+          actualAmount: actualCost,
+          remaining: parseFloat((budget.amount - actualCost).toFixed(2)),
+          usagePercentage:
+            budget.amount > 0
+              ? parseFloat(((actualCost / budget.amount) * 100).toFixed(1))
+              : 0,
+        };
+      })
+      .filter((category) => category !== null); // Remove null entries from categories array
 
     monthlyData.push({
       month,

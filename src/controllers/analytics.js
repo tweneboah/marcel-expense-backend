@@ -48,11 +48,22 @@ export const getExpensesByTimePeriod = asyncHandler(async (req, res, next) => {
     userId,
   } = req.query;
 
+  // Verify req.user exists
+  if (!req.user) {
+    return next(new ErrorResponse("User authentication required", 401));
+  }
+
   // Admin can request data for any user, regular users only for themselves
-  const userFilter =
-    req.user.role === "admin" && userId
-      ? { user: new mongoose.Types.ObjectId(userId) }
-      : { user: req.user._id };
+  let userFilter = {};
+
+  // Only filter by userId if it's explicitly provided and user is admin
+  if (userId && req.user.role === "admin") {
+    userFilter = { user: new mongoose.Types.ObjectId(userId) };
+  } else if (req.user.role !== "admin") {
+    // Non-admin users can only see their own data
+    userFilter = { user: req.user._id };
+  }
+  // For admins without userId, don't filter by user (return all users' data)
 
   // Validate periodType
   if (!["month", "quarter", "year"].includes(periodType)) {
@@ -77,16 +88,23 @@ export const getExpensesByTimePeriod = asyncHandler(async (req, res, next) => {
   // Set up year filter
   const yearFilter = { $year: "$journeyDate" };
 
+  // Build the match condition for the aggregation
+  const matchCondition = {
+    journeyDate: {
+      $gte: new Date(`${year}-01-01`),
+      $lte: new Date(`${year}-12-31T23:59:59.999Z`),
+    },
+  };
+
+  // Only add user filter if it's not empty
+  if (Object.keys(userFilter).length > 0) {
+    Object.assign(matchCondition, userFilter);
+  }
+
   // Run aggregation
   const summary = await Expense.aggregate([
     {
-      $match: {
-        ...userFilter,
-        journeyDate: {
-          $gte: new Date(`${year}-01-01`),
-          $lte: new Date(`${year}-12-31T23:59:59.999Z`),
-        },
-      },
+      $match: matchCondition,
     },
     {
       $group: {
@@ -184,6 +202,7 @@ export const getExpensesForPeriod = asyncHandler(async (req, res, next) => {
     periodValue,
     year = new Date().getFullYear(),
     userId,
+    debug = "false",
   } = req.query;
 
   // Validate required parameters
@@ -198,11 +217,22 @@ export const getExpensesForPeriod = asyncHandler(async (req, res, next) => {
     );
   }
 
+  // Verify req.user exists
+  if (!req.user) {
+    return next(new ErrorResponse("User authentication required", 401));
+  }
+
   // Admin can request data for any user, regular users only for themselves
-  const userFilter =
-    req.user.role === "admin" && userId
-      ? { user: new mongoose.Types.ObjectId(userId) }
-      : { user: req.user._id };
+  let userFilter = {};
+
+  // Only filter by userId if it's explicitly provided and user is admin
+  if (userId && req.user.role === "admin") {
+    userFilter = { user: new mongoose.Types.ObjectId(userId) };
+  } else if (req.user.role !== "admin") {
+    // Non-admin users can only see their own data
+    userFilter = { user: req.user._id };
+  }
+  // For admins without userId, don't filter by user (return all users' data)
 
   // Get date range for the period
   const { startDate, endDate } = getDateRangeForPeriod(
@@ -211,14 +241,108 @@ export const getExpensesForPeriod = asyncHandler(async (req, res, next) => {
     year
   );
 
-  // Query expenses for the specified period
-  const expenses = await Expense.find({
-    ...userFilter,
+  // Add debugging info if requested
+  if (debug === "true") {
+    console.log(
+      `Period type: ${periodType}, Value: ${periodValue}, Year: ${year}`
+    );
+    console.log(
+      `Date range: ${startDate.toISOString()} to ${endDate.toISOString()}`
+    );
+    console.log(`User filter: ${JSON.stringify(userFilter)}`);
+    console.log(`User role: ${req.user.role}`);
+
+    // Check if any expenses exist for this filter
+    const totalExpenses =
+      Object.keys(userFilter).length > 0
+        ? await Expense.countDocuments(userFilter)
+        : await Expense.countDocuments();
+    console.log(`Total expenses for filter: ${totalExpenses}`);
+
+    // Get sample of expenses to check dates
+    if (totalExpenses > 0) {
+      const sampleExpenses = await Expense.find(userFilter)
+        .select("journeyDate user")
+        .sort("-journeyDate")
+        .limit(5);
+
+      console.log("Sample expense dates:");
+      sampleExpenses.forEach((exp) => {
+        console.log(
+          `- ${exp._id}: ${exp.journeyDate.toISOString()} User: ${exp.user}`
+        );
+      });
+    }
+  }
+
+  // Query filter
+  const filter = {
     journeyDate: {
       $gte: startDate,
       $lte: endDate,
     },
-  }).populate("category", "name color");
+  };
+
+  // Only add user filter if it's not empty
+  if (Object.keys(userFilter).length > 0) {
+    Object.assign(filter, userFilter);
+  }
+
+  if (debug === "true") {
+    console.log(`Final query filter: ${JSON.stringify(filter)}`);
+  }
+
+  // Query expenses for the specified period
+  const expenses = await Expense.find(filter)
+    .populate("category", "name color")
+    .populate("user", "name email");
+
+  if (debug === "true") {
+    console.log(`Found ${expenses.length} expenses in the specified period`);
+
+    // If no results, check if any expenses exist in a wider date range
+    if (expenses.length === 0) {
+      // Extend the date range by 1 year in both directions
+      const widerStartDate = new Date(startDate);
+      widerStartDate.setFullYear(widerStartDate.getFullYear() - 1);
+
+      const widerEndDate = new Date(endDate);
+      widerEndDate.setFullYear(widerEndDate.getFullYear() + 1);
+
+      const widerFilter = {
+        journeyDate: {
+          $gte: widerStartDate,
+          $lte: widerEndDate,
+        },
+      };
+
+      // Only add user filter if it's not empty
+      if (Object.keys(userFilter).length > 0) {
+        Object.assign(widerFilter, userFilter);
+      }
+
+      const widerExpenses = await Expense.find(widerFilter)
+        .select("journeyDate")
+        .sort("journeyDate");
+
+      console.log(
+        `Found ${
+          widerExpenses.length
+        } expenses in wider date range: ${widerStartDate.toISOString()} to ${widerEndDate.toISOString()}`
+      );
+
+      if (widerExpenses.length > 0) {
+        console.log(
+          "First expense date:",
+          widerExpenses[0].journeyDate.toISOString()
+        );
+        console.log(
+          "Last expense date:",
+          widerExpenses[widerExpenses.length - 1].journeyDate.toISOString()
+        );
+      }
+    }
+  }
 
   // Calculate summaries
   const summary = {
@@ -326,19 +450,35 @@ export const getExpensesByCategory = asyncHandler(async (req, res, next) => {
     };
   }
 
+  // Verify req.user exists
+  if (!req.user) {
+    return next(new ErrorResponse("User authentication required", 401));
+  }
+
   // Admin can request data for any user, regular users only for themselves
-  const userFilter =
-    req.user.role === "admin" && userId
-      ? { user: new mongoose.Types.ObjectId(userId) }
-      : { user: req.user._id };
+  let userFilter = {};
+
+  // Only filter by userId if it's explicitly provided and user is admin
+  if (userId && req.user.role === "admin") {
+    userFilter = { user: new mongoose.Types.ObjectId(userId) };
+  } else if (req.user.role !== "admin") {
+    // Non-admin users can only see their own data
+    userFilter = { user: req.user._id };
+  }
+  // For admins without userId, don't filter by user (return all users' data)
+
+  // Build match condition for aggregation
+  const matchCondition = { ...dateFilter };
+
+  // Only add user filter if it's not empty
+  if (Object.keys(userFilter).length > 0) {
+    Object.assign(matchCondition, userFilter);
+  }
 
   // Run aggregation
   const categoryBreakdown = await Expense.aggregate([
     {
-      $match: {
-        ...userFilter,
-        ...dateFilter,
-      },
+      $match: matchCondition,
     },
     {
       $lookup: {

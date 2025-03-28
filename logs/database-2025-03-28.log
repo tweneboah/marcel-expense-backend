@@ -128,3 +128,1062 @@
   "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
   "service": "database-connection"
 }
+2025-03-28 07:18:25 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 07:18:55 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 07:35:15 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 07:35:45 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 07:54:15 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 07:54:45 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 08:10:16 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 08:10:46 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 08:30:02 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 08:30:32 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 08:49:33 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 08:50:03 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 08:58:19 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 08:58:49 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 09:33:02 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 09:33:32 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 09:49:59 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 09:50:29 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 09:59:19 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 09:59:49 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 10:15:18 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 10:15:48 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 10:31:22 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 10:31:52 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 10:49:16 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 10:49:46 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 11:00:19 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 11:00:49 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 11:19:35 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 11:20:05 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 11:35:26 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 11:35:56 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 11:51:20 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 11:51:50 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 12:01:19 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 12:01:49 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 12:21:54 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 12:22:24 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 12:39:42 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 12:40:12 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 12:57:27 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 12:57:57 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 13:02:19 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 13:02:49 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 13:20:51 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 13:21:21 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 13:38:59 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 13:39:29 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 13:45:15 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 13:45:46 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 14:03:19 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 14:03:49 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 15:52:06 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 15:52:06 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 15:52:07 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 15:52:07 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 71,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 15:52:07 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 15:52:07 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:52:49 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 15:52:49 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 15:52:49 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 15:52:49 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 30,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 15:52:49 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 15:52:49 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:53:12 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 15:53:12 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 15:53:12 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 15:53:12 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 33,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 15:53:12 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 15:53:12 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:56:18 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 15:56:18 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 15:56:18 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 15:56:18 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 20,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 15:56:18 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 15:56:18 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:56:35 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 15:56:35 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 15:56:35 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 15:56:35 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 22,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 15:56:35 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 15:56:35 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:56:49 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 15:56:49 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 15:56:49 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 15:56:49 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 21,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 15:56:49 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 15:56:49 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:56:59 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 15:56:59 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 15:56:59 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 15:56:59 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 25,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 15:56:59 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 15:56:59 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:57:13 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 15:57:13 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 15:57:13 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 15:57:13 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 23,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 15:57:13 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 15:57:13 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:00:01 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:00:01 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:00:01 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:00:01 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 28,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:00:01 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:00:01 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:18:34 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:18:34 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:18:34 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:18:34 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 53,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:18:34 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:18:35 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:22:22 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:22:22 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:22:22 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:22:22 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 44,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:22:22 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:22:22 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:22:35 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:22:35 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:22:35 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:22:35 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 24,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:22:35 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:22:35 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:22:45 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:22:45 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:22:45 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:22:45 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 56,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:22:45 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:22:45 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:33:48 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:33:48 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:33:48 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:33:48 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 25,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:33:48 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:33:48 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:34:05 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:34:05 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:34:05 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:34:05 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 26,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:34:05 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:34:05 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:38:14 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:38:14 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:38:14 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:38:14 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 57,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:38:14 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:38:14 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:38:45 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:38:45 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:38:45 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:38:45 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 30,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:38:45 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:38:45 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:42:26 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:42:26 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:42:26 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:42:26 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 34,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:42:26 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:42:26 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:42:37 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:42:37 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:42:37 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:42:37 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 25,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:42:37 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:42:37 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:43:06 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:43:06 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:43:06 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:43:06 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 23,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:43:06 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:43:06 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:43:23 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:43:23 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:43:23 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:43:23 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 37,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:43:23 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:43:23 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:47:35 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:47:36 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:47:36 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:47:36 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 24,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:47:36 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:47:36 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:48:04 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:48:04 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:48:04 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:48:04 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 24,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:48:04 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:48:04 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:48:25 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 16:48:25 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 16:48:25 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 16:48:25 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 20,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 16:48:25 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 16:48:25 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 17:43:51 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 17:44:21 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 17:48:40 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 17:49:10 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 17:51:40 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 17:52:10 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 18:00:41 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-28 18:01:11 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 18:17:00 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 18:17:00 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 18:17:00 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 18:17:00 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 54,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 18:17:00 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 18:17:01 [INFO]: Category 'Fuel' created {
+  "service": "database-connection"
+}
+2025-03-28 18:17:01 [INFO]: Category 'Tolls' created {
+  "service": "database-connection"
+}
+2025-03-28 18:17:01 [INFO]: Category 'Maintenance' created {
+  "service": "database-connection"
+}
+2025-03-28 18:17:01 [INFO]: Setting 'defaultCostPerKm' created {
+  "service": "database-connection"
+}
+2025-03-28 18:17:01 [INFO]: Setting 'maxDailyDistance' created {
+  "service": "database-connection"
+}
+2025-03-28 18:17:01 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-03-28 18:17:02 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 18:17:02 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 18:17:02 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 18:17:02 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 19,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 18:17:02 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 18:17:02 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-03-28 18:58:31 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 18:58:31 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 18:58:31 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 18:58:31 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 35,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 18:58:31 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 18:58:31 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-03-28 19:09:04 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 19:09:04 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 19:09:04 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 19:09:04 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 56,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 19:09:04 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 19:09:04 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-03-28 20:54:40 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-03-28 20:54:40 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-03-28 20:54:40 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-03-28 20:54:40 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 155,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-03-28 20:54:40 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-03-28 20:54:41 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}

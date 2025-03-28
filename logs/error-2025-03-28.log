@@ -43,3 +43,1883 @@
   "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
   "service": "database-connection"
 }
+2025-03-28 15:01:17 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: fetch failed {
+  "service": "expense-tracker",
+  "originalNote": "{\"original\":\"meeting\",\"enhanced\":\"Fuel expense of CHF 184.48 incurred on March 28, 2025, for travel from Accra to Kumasi, Ghana, covering a distance of 263.541 km for a business trip.\"}",
+  "error": "TypeError: fetch failed\n    at node:internal/deps/undici/undici:12618:11\n    at async makeRequest (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:193:20)\n    at async generateContent (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:43:20)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:122:31"
+}
+2025-03-28 15:06:26 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: fetch failed {
+  "service": "expense-tracker",
+  "originalNote": "meetin",
+  "error": "TypeError: fetch failed\n    at node:internal/deps/undici/undici:12618:11\n    at async makeRequest (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:193:20)\n    at async generateContent (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:43:20)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:596:27"
+}
+2025-03-28 15:08:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Error calculating route: Route calculation failed: Directions error: ZERO_RESULTS",
+  "path": "/api/v1/maps/route/optimize",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Error calculating route: Route calculation failed: Directions error: ZERO_RESULTS\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:163:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:08:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Error calculating route: Route calculation error: ZERO_RESULTS",
+  "path": "/api/v1/maps/distance",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Error calculating route: Route calculation error: ZERO_RESULTS\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:102:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:08:36 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Error calculating route: Route calculation failed: Directions error: ZERO_RESULTS",
+  "path": "/api/v1/maps/route/optimize",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Error calculating route: Route calculation failed: Directions error: ZERO_RESULTS\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:163:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:08:36 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Error calculating route: Route calculation error: ZERO_RESULTS",
+  "path": "/api/v1/maps/distance",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Error calculating route: Route calculation error: ZERO_RESULTS\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:102:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:09:35 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later. {
+  "service": "expense-tracker",
+  "originalNote": "mee",
+  "error": "Error: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at makeRequest (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:210:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateContent (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:43:20)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:596:27"
+}
+2025-03-28 15:09:46 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: fetch failed {
+  "service": "expense-tracker",
+  "originalNote": "meeting",
+  "error": "TypeError: fetch failed\n    at node:internal/deps/undici/undici:12618:11\n    at async makeRequest (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:193:20)\n    at async generateContent (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:43:20)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:596:27"
+}
+2025-03-28 15:09:51 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: fetch failed {
+  "service": "expense-tracker",
+  "originalNote": "meetingt",
+  "error": "TypeError: fetch failed\n    at node:internal/deps/undici/undici:12618:11\n    at async makeRequest (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:193:20)\n    at async generateContent (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:43:20)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:122:31"
+}
+2025-03-28 15:14:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:14:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:14:47 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: fetch failed {
+  "service": "expense-tracker",
+  "originalNote": "{\"original\":\"mee\",\"enhanced\":\"mee\"}",
+  "error": "TypeError: fetch failed\n    at node:internal/deps/undici/undici:12618:11\n    at async makeRequest (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:193:20)\n    at async generateContent (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:43:20)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:122:31"
+}
+2025-03-28 15:18:50 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:18:50 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:32:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:32:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:40:39 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:40:39 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:43:11 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:43:11 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:52:07 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:52:49 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:53:12 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:53:35 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading 'role')",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=quarter&periodValue=2&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading 'role')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:204:14\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:53:36 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading 'role')",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=quarter&periodValue=2&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading 'role')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:204:14\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:55:05 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading 'role')",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading 'role')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:204:14\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:55:05 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading 'role')",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading 'role')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:204:14\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:56:18 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:56:35 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:56:49 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:56:59 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:57:13 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 15:57:23 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "User authentication required",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: User authentication required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:222:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:57:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "User authentication required",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: User authentication required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:222:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:57:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "User authentication required",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: User authentication required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:222:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:57:33 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "User authentication required",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: User authentication required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:222:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:57:39 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/auth.js:47:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:57:47 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/auth.js:47:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:57:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/auth.js:47:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 15:58:02 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/auth.js:47:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:00:01 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:05:16 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Period type and value are required",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Period type and value are required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:210:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:05:16 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Period type and value are required",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Period type and value are required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:210:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:05:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Period type and value are required",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Period type and value are required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:210:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:05:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Period type and value are required",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Period type and value are required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:210:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:07:54 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Period type and value are required",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Period type and value are required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:210:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:07:54 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Period type and value are required",
+  "path": "/api/v1/analytics/expenses/period-detail?periodType=month&year=2023",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Period type and value are required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/analytics.js:210:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:14:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:14:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:15:29 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2023&month=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:15:57 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading 'role')",
+  "path": "/api/v1/expenses",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading 'role')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:199:16\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:15:59 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading 'role')",
+  "path": "/api/v1/expenses",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading 'role')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:199:16\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:16:00 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading 'role')",
+  "path": "/api/v1/expenses",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading 'role')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:199:16\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:16:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2023&month=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1218:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:18:35 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:21:31 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading '_id')",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&month=3&debug=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading '_id')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1307:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:21:35 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading '_id')",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&month=3&debug=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading '_id')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1307:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:21:43 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading '_id')",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&month=3",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading '_id')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1307:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 16:22:22 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:22:35 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:22:45 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:33:48 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:34:05 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:38:14 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:38:45 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:42:26 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:42:37 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:43:06 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:43:23 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:47:36 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:48:04 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 16:48:25 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 18:08:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:08:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:08:20 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:08:20 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:08:54 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:08:54 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:09:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:09:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:09:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:09:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:09:41 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Cannot read properties of null (reading 'role')",
+  "path": "/api/v1/budgets",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Cannot read properties of null (reading 'role')\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:80:31\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:10:07 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:11:13 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:11:13 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:12:54 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:12:54 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:13:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:13:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:14:55 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:14:55 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:15:32 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:15:32 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:16:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:16:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:16:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:16:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:17:52 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:17:52 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:18:28 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:18:28 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:22:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:23:07 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:23:07 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:23:19 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&month=3&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:23:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&month=3&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:23:40 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:27:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:27:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:28:29 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:28:29 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:29:34 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:29:34 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:29:37 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:29:37 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:33:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:33:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:33:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-amount&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:33:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:33:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:34:33 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:34:33 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:35:00 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:35:00 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:35:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:35:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:35:52 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:35:52 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:35:55 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:35:55 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:36:37 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "budget.remove is not a function",
+  "path": "/api/v1/budgets/67e6e548dd25409d2a48243b",
+  "method": "DELETE",
+  "ip": "::1",
+  "stack": "TypeError: budget.remove is not a function\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:764:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:36:40 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:36:40 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10&sort=-year,-month",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:54:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:54:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:54:10 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:54:10 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:54:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:54:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:54:45 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:54:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:55:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:55:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:55:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:56:52 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:56:52 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:57:09 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:57:10 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:57:13 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:57:13 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:57:23 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:57:23 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:57:35 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:57:35 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:57:51 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:57:56 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "budget.remove is not a function",
+  "path": "/api/v1/budgets/67e6e548dd25409d2a48243b",
+  "method": "DELETE",
+  "ip": "::1",
+  "stack": "TypeError: budget.remove is not a function\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:764:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:58:33 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 18:58:33 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:02:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:02:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:03:22 [ERROR]: Error encountered {
+  "errorName": "CastError",
+  "errorMessage": "Cast to ObjectId failed for value \"budget-summary\" (type string) at path \"_id\" for model \"Budget\"",
+  "path": "/api/v1/budgets/budget-summary",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "CastError: Cast to ObjectId failed for value \"budget-summary\" (type string) at path \"_id\" for model \"Budget\"\n    at SchemaObjectId.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/objectId.js:251:11)\n    at SchemaType.applySetters (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1255:12)\n    at SchemaType.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1673:17)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:390:32)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._findOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2648:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:409:18",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:03:22 [ERROR]: Error encountered {
+  "errorName": "CastError",
+  "errorMessage": "Cast to ObjectId failed for value \"budget-summary\" (type string) at path \"_id\" for model \"Budget\"",
+  "path": "/api/v1/budgets/budget-summary",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "CastError: Cast to ObjectId failed for value \"budget-summary\" (type string) at path \"_id\" for model \"Budget\"\n    at SchemaObjectId.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/objectId.js:251:11)\n    at SchemaType.applySetters (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1255:12)\n    at SchemaType.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1673:17)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:390:32)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._findOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2648:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:409:18",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:03:53 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:03:53 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:04:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:04:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:05:16 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the year 2024",
+  "path": "/api/v1/budgets/summary?year=2024",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the year 2024\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:796:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:09:15 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the year 2024",
+  "path": "/api/v1/budgets/summary?year=2024",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the year 2024\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:796:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:10:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the year 2024",
+  "path": "/api/v1/budgets/summary?year=2024",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the year 2024\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:796:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:12:21 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:12:21 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:12:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:12:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:12:30 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:12:30 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:17:23 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:17:23 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:26:29 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 19:26:29 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:04 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:04 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:08 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:08 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:10 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:10 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:20 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:20 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:55:55 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the year 2026",
+  "path": "/api/v1/budgets/summary?year=2026",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the year 2026\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:796:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 20:57:11 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Category with name 'Fuel' already exists",
+  "path": "/api/v1/categories",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Category with name 'Fuel' already exists\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/categories.js:1080:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}

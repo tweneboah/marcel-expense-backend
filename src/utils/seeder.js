@@ -24,6 +24,38 @@ const getRandomDate = () => {
   );
 };
 
+// Generate date in a specific period
+const getDateInPeriod = (year, month) => {
+  // Month is 0-indexed in JavaScript Date
+  const startDate = new Date(year, month - 1, 1);
+  const endDate = new Date(year, month, 0); // Last day of month
+
+  return new Date(
+    startDate.getTime() +
+      Math.random() * (endDate.getTime() - startDate.getTime())
+  );
+};
+
+// Generate expense for a specific period
+const createExpenseForPeriod = (userId, categoryId, year, month) => {
+  const distance = getRandomNumber(20, 300);
+  const costPerKm = 0.3;
+  const journeyDate = getDateInPeriod(year, month);
+
+  return {
+    user: userId,
+    category: categoryId,
+    startingPoint: `City ${year}-${month}-A`,
+    destinationPoint: `City ${year}-${month}-B`,
+    distance,
+    costPerKm,
+    totalCost: distance * costPerKm,
+    journeyDate,
+    notes: `Test expense for ${month}/${year}`,
+    status: "approved",
+  };
+};
+
 // Generate random number between min and max
 const getRandomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
@@ -51,8 +83,8 @@ const importData = async () => {
 
     // Create sales user
     const salesUser = await User.create({
-      name: "Sales User",
-      email: "sales@example.com",
+      name: "John",
+      email: "john@gmail.com",
       password: "sales123",
       role: "sales_rep",
     });
@@ -68,41 +100,49 @@ const importData = async () => {
 
     console.log("Categories created...");
 
-    // Create settings
-    await Setting.insertMany([
-      {
+    try {
+      // Create settings
+      await Setting.create({
         key: "defaultCostPerKm",
         value: 0.3,
         description: "Default cost per kilometer in currency units",
-      },
-      {
+      });
+
+      await Setting.create({
         key: "maxDailyDistance",
         value: 500,
         description: "Maximum daily distance allowed in kilometers",
-      },
-      {
+      });
+
+      await Setting.create({
         key: "maxMonthlyExpense",
         value: 2000,
         description: "Maximum monthly expense amount allowed",
-      },
-      {
+      });
+
+      await Setting.create({
         key: "companyName",
         value: "AussenDienst GmbH",
         description: "Company name for reports and receipts",
-      },
-      {
+      });
+
+      await Setting.create({
         key: "fiscalYearStart",
         value: "01-01",
         description: "Start date of fiscal year (MM-DD)",
-      },
-    ]);
+      });
 
-    console.log("Settings created...");
+      console.log("Settings created...");
+    } catch (err) {
+      console.error("Error creating settings:", err.message);
+      // Continue with the rest of the seeding even if settings fail
+    }
 
     // Create expenses for sales user
     const expenses = [];
 
-    for (let i = 0; i < 50; i++) {
+    // Create random expenses
+    for (let i = 0; i < 20; i++) {
       const distance = getRandomNumber(20, 300);
       const costPerKm = 0.3;
       const journeyDate = getRandomDate();
@@ -125,9 +165,47 @@ const importData = async () => {
       expenses.push(expense);
     }
 
+    // Create specific expenses for testing periods
+    // Create expenses for each quarter in 2023
+    for (let quarter = 1; quarter <= 4; quarter++) {
+      const startMonth = (quarter - 1) * 3 + 1; // 1, 4, 7, 10
+
+      // Create 3 expenses for each month in the quarter
+      for (let monthOffset = 0; monthOffset < 3; monthOffset++) {
+        const month = startMonth + monthOffset;
+
+        // Create 2 expenses per category for this month
+        for (const category of categories) {
+          expenses.push(
+            createExpenseForPeriod(salesUser._id, category._id, 2023, month)
+          );
+          expenses.push(
+            createExpenseForPeriod(salesUser._id, category._id, 2023, month)
+          );
+        }
+      }
+
+      console.log(`Created expenses for Q${quarter} 2023`);
+    }
+
+    // Add a few expenses for the current year
+    const currentYear = new Date().getFullYear();
+    for (let month = 1; month <= 3; month++) {
+      for (const category of categories) {
+        expenses.push(
+          createExpenseForPeriod(
+            salesUser._id,
+            category._id,
+            currentYear,
+            month
+          )
+        );
+      }
+    }
+
     await Expense.insertMany(expenses);
 
-    console.log("Expenses created...");
+    console.log(`Expenses created (${expenses.length} total)...`);
 
     // Create reports based on expenses
     const reports = new Map();
