@@ -1,0 +1,45 @@
+2025-03-28 05:20:13 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 05:45:50 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "",
+  "path": "/api/v1/maps/route/optimize",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error\n    at dispatchHttpRequest (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2949:25)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2703:5\n    at new Promise (<anonymous>)\n    at wrapAsync (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2683:10)\n    at http (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2721:10)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@googlemaps/google-maps-services-js/dist/adapter.js:66:9\n    at new Promise (<anonymous>)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@googlemaps/google-maps-services-js/dist/adapter.js:65:12\n    at Axios.dispatchRequest (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4098:10)\n    at Axios._request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4398:33)\n    at Axios.request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4258:41)\n    at async Axios.request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4253:14)\n    at async calculateRouteWithWaypoints (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/utils/googleMaps.js:206:22)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:111:21",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 05:46:08 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "",
+  "path": "/api/v1/maps/route/optimize",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error\n    at dispatchHttpRequest (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2949:25)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2703:5\n    at new Promise (<anonymous>)\n    at wrapAsync (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2683:10)\n    at http (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2721:10)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@googlemaps/google-maps-services-js/dist/adapter.js:66:9\n    at new Promise (<anonymous>)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@googlemaps/google-maps-services-js/dist/adapter.js:65:12\n    at Axios.dispatchRequest (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4098:10)\n    at Axios._request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4398:33)\n    at Axios.request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4258:41)\n    at async Axios.request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4253:14)\n    at async calculateRouteWithWaypoints (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/utils/googleMaps.js:206:22)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:111:21",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:38 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 05:49:48 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 05:49:59 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-28 05:50:14 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}

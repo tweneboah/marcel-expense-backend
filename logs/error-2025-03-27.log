@@ -1,0 +1,1053 @@
+2025-03-27 05:32:38 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:49:10 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:49:50 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:49:53 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:50:06 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:50:09 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:50:55 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:51:08 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:51:11 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:51:22 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:51:29 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:51:45 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:58:54 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 05:58:56 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 06:00:54 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 06:00:58 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 06:01:01 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 06:01:04 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 06:01:57 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 06:02:01 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 06:02:02 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 06:02:05 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 06:02:14 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 12:01:51 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 12:58:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Budget limits require amount, period, and startDate",
+  "path": "/api/v1/categories",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Budget limits require amount, period, and startDate\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/categories.js:1106:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-27 13:56:16 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 13:56:36 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 13:56:52 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 2,
+  "errorMessage": "unknown operator: $expr",
+  "path": "/api/v1/advanced-reports/ytd?year=2023&compareWithPreviousYear=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "MongoServerError: unknown operator: $expr\n    at Connection.sendCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async AggregateOperation.executeCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/command.js:76:16)\n    at async AggregateOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/aggregate.js:87:16)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async AggregationCursor._initialize (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/aggregation_cursor.js:56:26)\n    at async AggregationCursor.cursorInit (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 13:57:20 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 2,
+  "errorMessage": "unknown operator: $expr",
+  "path": "/api/v1/advanced-reports/ytd?year=2023&compareWithPreviousYear=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "MongoServerError: unknown operator: $expr\n    at Connection.sendCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async AggregateOperation.executeCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/command.js:76:16)\n    at async AggregateOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/aggregate.js:87:16)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async AggregationCursor._initialize (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/aggregation_cursor.js:56:26)\n    at async AggregationCursor.cursorInit (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-27 13:57:53 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 13:58:36 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 13:59:22 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:00:05 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:00:31 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 2,
+  "errorMessage": "unknown operator: $expr",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "MongoServerError: unknown operator: $expr\n    at Connection.sendCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async AggregateOperation.executeCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/command.js:76:16)\n    at async AggregateOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/aggregate.js:87:16)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async AggregationCursor._initialize (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/aggregation_cursor.js:56:26)\n    at async AggregationCursor.cursorInit (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:00:31 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 2,
+  "errorMessage": "unknown operator: $expr",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "MongoServerError: unknown operator: $expr\n    at Connection.sendCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async AggregateOperation.executeCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/command.js:76:16)\n    at async AggregateOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/aggregate.js:87:16)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async AggregationCursor._initialize (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/aggregation_cursor.js:56:26)\n    at async AggregationCursor.cursorInit (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:00:34 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 2,
+  "errorMessage": "unknown operator: $expr",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "MongoServerError: unknown operator: $expr\n    at Connection.sendCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async AggregateOperation.executeCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/command.js:76:16)\n    at async AggregateOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/aggregate.js:87:16)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async AggregationCursor._initialize (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/aggregation_cursor.js:56:26)\n    at async AggregationCursor.cursorInit (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:00:34 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 2,
+  "errorMessage": "unknown operator: $expr",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "MongoServerError: unknown operator: $expr\n    at Connection.sendCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async AggregateOperation.executeCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/command.js:76:16)\n    at async AggregateOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/aggregate.js:87:16)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async AggregationCursor._initialize (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/aggregation_cursor.js:56:26)\n    at async AggregationCursor.cursorInit (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:00:35 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 2,
+  "errorMessage": "unknown operator: $expr",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "MongoServerError: unknown operator: $expr\n    at Connection.sendCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async AggregateOperation.executeCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/command.js:76:16)\n    at async AggregateOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/aggregate.js:87:16)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async AggregationCursor._initialize (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/aggregation_cursor.js:56:26)\n    at async AggregationCursor.cursorInit (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:00:35 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 2,
+  "errorMessage": "unknown operator: $expr",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "MongoServerError: unknown operator: $expr\n    at Connection.sendCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async AggregateOperation.executeCommand (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/command.js:76:16)\n    at async AggregateOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/aggregate.js:87:16)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async AggregationCursor._initialize (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/aggregation_cursor.js:56:26)\n    at async AggregationCursor.cursorInit (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:01:27 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:02:09 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:02:52 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:04:57 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:05:35 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:05:49 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:06:26 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:06:32 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:76:20)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:134:24)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:30:26",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:06:32 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:76:20)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:134:24)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:30:26",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:06:41 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:06:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1206:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:06:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1206:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:07:00 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:76:20)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:134:24)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:30:26",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:07:00 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:76:20)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:134:24)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:30:26",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:07:00 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:76:20)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:134:24)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:30:26",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:07:00 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:76:20)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:134:24)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:30:26",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:07:03 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:07:26 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:09:20 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:76:20)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:134:24)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:30:26",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:09:20 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:76:20)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:134:24)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:30:26",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:09:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2023&compareWithPreviousYear=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:76:20)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:134:24)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:30:26",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:10:09 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:10:44 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:10:54 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:11:10 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:11:19 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:11:33 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:11:52 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:12:07 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:12:29 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:12:42 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:13:36 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:14:01 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:14:20 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:14:48 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:15:04 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:15:19 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:15:31 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:15:41 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:15:58 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:16:12 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:18:55 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:19:10 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:19:29 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:19:45 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:20:02 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:20:20 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:20:33 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:20:53 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:21:07 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:21:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2023&compareWithPreviousYear=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:117:26)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:36:26",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:21:16 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2023&compareWithPreviousYear=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:117:26)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:36:26",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:21:16 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2023&compareWithPreviousYear=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:117:26)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:36:26",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:21:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2023&compareWithPreviousYear=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:117:26)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:36:26",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:21:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2023&compareWithPreviousYear=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:117:26)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:36:26",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:21:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Can't use $regex with Date.",
+  "path": "/api/v1/advanced-reports/ytd?year=2023&compareWithPreviousYear=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Can't use $regex with Date.\n    at SchemaDate.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/date.js:424:11)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:367:39)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._find (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2352:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getYTDData (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:117:26)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:36:26",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-27 14:21:53 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:22:26 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:22:54 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:23:02 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:23:03 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:23:25 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:23:33 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:23:34 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:23:50 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 14:24:04 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 15:32:10 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 15:32:23 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 15:34:45 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 15:35:51 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 15:36:10 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 15:36:22 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 15:36:39 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 15:36:55 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 15:37:09 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 15:43:28 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Chart type is required",
+  "path": "/api/v1/advanced-reports/chart-data?timeRange=year&year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Chart type is required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:346:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 15:43:28 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Chart type is required",
+  "path": "/api/v1/advanced-reports/chart-data?timeRange=year&year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Chart type is required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:346:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 15:45:35 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Chart type is required",
+  "path": "/api/v1/advanced-reports/chart-data?timeRange=year&year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Chart type is required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:346:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 15:45:35 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Chart type is required",
+  "path": "/api/v1/advanced-reports/chart-data?timeRange=year&year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Chart type is required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:346:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 15:46:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Chart type is required",
+  "path": "/api/v1/advanced-reports/chart-data?timeRange=year&year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Chart type is required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:346:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 15:46:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Chart type is required",
+  "path": "/api/v1/advanced-reports/chart-data?timeRange=year&year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Chart type is required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:346:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 15:52:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1215:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 15:52:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1215:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 15:53:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Chart type is required",
+  "path": "/api/v1/advanced-reports/chart-data?timeRange=year&year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Chart type is required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:346:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 15:53:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Chart type is required",
+  "path": "/api/v1/advanced-reports/chart-data?timeRange=year&year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Chart type is required\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:346:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 16:00:47 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Unsupported chart type: doughnut",
+  "path": "/api/v1/advanced-reports/chart-data?chartType=doughnut&startDate=2023-01-01&endDate=2023-12-31",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Unsupported chart type: doughnut\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:416:9\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 16:01:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Unsupported chart type: doughnut",
+  "path": "/api/v1/advanced-reports/chart-data?chartType=doughnut&startDate=2023-01-01&endDate=2023-12-31",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Unsupported chart type: doughnut\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:416:9\n    at asyncUtilWrap (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 16:38:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1215:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 16:38:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "No budgets found for the specified period",
+  "path": "/api/v1/advanced-reports/budget-comparison?year=2025&quarter=all",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: No budgets found for the specified period\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/advancedReporting.js:1215:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 16:53:39 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 16:53:57 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 16:54:15 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 16:54:30 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 16:54:59 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 16:55:15 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:11:02 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:11:23 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:12:16 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:13:12 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:13:36 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:14:00 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:15:15 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Class constructor ObjectId cannot be invoked without 'new'",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:192:34\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:136:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 17:15:15 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Class constructor ObjectId cannot be invoked without 'new'",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:192:34\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 1)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:136:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 17:15:23 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Class constructor ObjectId cannot be invoked without 'new'",
+  "path": "/api/v1/budgets",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:192:34\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:136:28",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-27 17:16:29 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:26:40 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Class constructor ObjectId cannot be invoked without 'new'",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:192:34\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 1)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:136:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 17:26:40 [ERROR]: Error encountered {
+  "errorName": "TypeError",
+  "errorMessage": "Class constructor ObjectId cannot be invoked without 'new'",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=5",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:192:34\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:136:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 17:32:43 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:32:58 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:33:07 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:33:19 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:33:29 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:34:16 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 17:34:32 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 18:40:23 [ERROR]: Error initializing default data {
+  "error": "E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }",
+  "stack": "MongoServerError: E11000 duplicate key error collection: expense-tracker.settings index: name_1 dup key: { name: null }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongodb/lib/collection.js:157:16)",
+  "service": "database-connection"
+}
+2025-03-27 18:53:07 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Place autocomplete error: ZERO_RESULTS",
+  "path": "/api/v1/maps/places/autocomplete?input=main+station+paris",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Place autocomplete error: ZERO_RESULTS\n    at getPlacePredictions (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/utils/googleMaps.js:28:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:24:23",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 18:53:34 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Place autocomplete error: ZERO_RESULTS",
+  "path": "/api/v1/maps/places/autocomplete?input=main+station+css",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Place autocomplete error: ZERO_RESULTS\n    at getPlacePredictions (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/utils/googleMaps.js:28:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:24:23",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 18:53:35 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Place autocomplete error: ZERO_RESULTS",
+  "path": "/api/v1/maps/places/autocomplete?input=main+station+cssf",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Place autocomplete error: ZERO_RESULTS\n    at getPlacePredictions (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/utils/googleMaps.js:28:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:24:23",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 18:54:10 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Place autocomplete error: ZERO_RESULTS",
+  "path": "/api/v1/maps/places/autocomplete?input=paris+main+station+",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Place autocomplete error: ZERO_RESULTS\n    at getPlacePredictions (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/utils/googleMaps.js:28:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:24:23",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-27 19:01:04 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Cannot delete category \"Fuel\" because it has 10 associated expenses. Most recent expenses: CHF 320.45 (3/27/2025), CHF 9.83 (3/26/2025), CHF 656.10 (3/26/2025). To maintain data integrity, categories with expenses cannot be deleted. Instead, you can update the category and set \"isActive\": false to hide it from active use.",
+  "path": "/api/v1/categories/67e249ac41eb1f8ea374189a",
+  "method": "DELETE",
+  "ip": "::1",
+  "stack": "Error: Cannot delete category \"Fuel\" because it has 10 associated expenses. Most recent expenses: CHF 320.45 (3/27/2025), CHF 9.83 (3/26/2025), CHF 656.10 (3/26/2025). To maintain data integrity, categories with expenses cannot be deleted. Instead, you can update the category and set \"isActive\": false to hide it from active use.\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/categories.js:1382:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}

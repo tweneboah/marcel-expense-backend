@@ -1,0 +1,497 @@
+2025-03-28 05:20:13 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 05:20:13 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 05:20:53 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 531.379ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:20:53 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 8.419ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:35:21 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 160.715ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:35:21 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 8.049ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:35:25 [HTTP]: GET /api/v1/maps/places/autocomplete?input=tafo [32m304[0m 803.182ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:35:26 [HTTP]: GET /api/v1/maps/places/details/ChIJy1G-Tt6V2w8Rn4K8xAW37YI [32m304[0m 322.846ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:35:27 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Tafo,+Kumasi,+Ghana [32m304[0m 655.155ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:35:34 [HTTP]: GET /api/v1/maps/places/autocomplete?input=accra [32m304[0m 654.707ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:35:35 [HTTP]: GET /api/v1/maps/places/details/ChIJc6e3soSQ3w8R0y0OZdhO0b4 [32m304[0m 335.867ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:35:35 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Accra,+Ghana [32m304[0m 673.719ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:38:51 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 88.033ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:38:51 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 8.079ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:38:54 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 22.139ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:38:54 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 5.811ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:40:04 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 7.852ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:40:04 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 15.420ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:40:07 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 24.412ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:40:07 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 5.126ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:40:59 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 14.946ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:40:59 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 2.928ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:41:11 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 44.106ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:41:11 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 14.012ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:41:19 [HTTP]: GET /api/v1/maps/places/autocomplete?input=tafo [32m304[0m 769.718ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:41:20 [HTTP]: GET /api/v1/maps/places/details/ChIJy1G-Tt6V2w8Rn4K8xAW37YI [32m304[0m 383.622ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:41:21 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Tafo,+Kumasi,+Ghana [32m304[0m 539.801ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:41:26 [HTTP]: GET /api/v1/maps/places/autocomplete?input=accra [32m304[0m 1.30s - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:41:27 [HTTP]: GET /api/v1/maps/places/details/ChIJc6e3soSQ3w8R0y0OZdhO0b4 [32m304[0m 355.243ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:41:28 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Accra,+Ghana [32m304[0m 700.237ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:08 [HTTP]: GET /api/v1/maps/places/autocomplete?input=adum [32m200[0m 728.972ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:11 [HTTP]: GET /api/v1/maps/places/details/ChIJ21t1XhO82w8R_8KVpF3dIsw [32m200[0m 329.870ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:12 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Aduman,+Ghana [32m200[0m 723.771ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:43 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 15.463ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:43 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 3.214ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:48 [HTTP]: GET /api/v1/maps/places/autocomplete?input=kumai [32m200[0m 1.28s - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:48 [HTTP]: GET /api/v1/maps/places/autocomplete?input=kumas [32m200[0m 298.878ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:49 [HTTP]: GET /api/v1/maps/places/details/ChIJSUxOmuWT2w8RguZlex1xnII [32m200[0m 355.866ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:50 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Kumasi,+Ghana [32m200[0m 706.840ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:55 [HTTP]: GET /api/v1/maps/places/autocomplete?input=accra [32m304[0m 1.21s - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:57 [HTTP]: GET /api/v1/maps/places/details/ChIJc6e3soSQ3w8R0y0OZdhO0b4 [32m304[0m 358.654ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:42:58 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Accra,+Ghana [32m304[0m 1.19s - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:44:47 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 22.436ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:44:47 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 4.077ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:44:52 [HTTP]: GET /api/v1/maps/places/autocomplete?input=kumasi [32m200[0m 621.195ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:44:53 [HTTP]: GET /api/v1/maps/places/details/ChIJSUxOmuWT2w8RguZlex1xnII [32m304[0m 281.586ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:44:54 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Kumasi,+Ghana [32m304[0m 186.234ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:44:59 [HTTP]: GET /api/v1/maps/places/autocomplete?input=accra [32m304[0m 624.771ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:45:01 [HTTP]: GET /api/v1/maps/places/details/ChIJc6e3soSQ3w8R0y0OZdhO0b4 [32m304[0m 267.634ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:45:01 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Accra,+Ghana [32m304[0m 197.864ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:45:34 [HTTP]: GET /api/v1/maps/places/autocomplete?input=ta [32m304[0m 611.486ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:45:34 [HTTP]: GET /api/v1/maps/places/autocomplete?input=tafo [32m304[0m 188.081ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:45:36 [HTTP]: GET /api/v1/maps/places/details/ChIJy1G-Tt6V2w8Rn4K8xAW37YI [32m304[0m 256.197ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:45:36 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Tafo,+Kumasi,+Ghana [32m304[0m 197.237ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:45:50 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "",
+  "path": "/api/v1/maps/route/optimize",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error\n    at dispatchHttpRequest (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2949:25)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2703:5\n    at new Promise (<anonymous>)\n    at wrapAsync (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2683:10)\n    at http (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2721:10)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@googlemaps/google-maps-services-js/dist/adapter.js:66:9\n    at new Promise (<anonymous>)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@googlemaps/google-maps-services-js/dist/adapter.js:65:12\n    at Axios.dispatchRequest (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4098:10)\n    at Axios._request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4398:33)\n    at Axios.request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4258:41)\n    at async Axios.request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4253:14)\n    at async calculateRouteWithWaypoints (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/utils/googleMaps.js:206:22)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:111:21",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 05:45:50 [HTTP]: POST /api/v1/maps/route/optimize [31m500[0m 1.54s {"originPlaceId":"ChIJSUxOmuWT2w8RguZlex1xnII","destinationPlaceId":"ChIJc6e3soSQ3w8R0y0OZdhO0b4","waypoints":[{"placeId":"ChIJy1G-Tt6V2w8Rn4K8xAW37YI","stopover":true,"description":"Tafo, Kumasi, Ghana"}],"optimizeWaypoints":false,"includeAlternatives":false} {
+  "service": "expense-tracker"
+}
+2025-03-28 05:46:08 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "",
+  "path": "/api/v1/maps/route/optimize",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error\n    at dispatchHttpRequest (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2949:25)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2703:5\n    at new Promise (<anonymous>)\n    at wrapAsync (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2683:10)\n    at http (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:2721:10)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@googlemaps/google-maps-services-js/dist/adapter.js:66:9\n    at new Promise (<anonymous>)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/@googlemaps/google-maps-services-js/dist/adapter.js:65:12\n    at Axios.dispatchRequest (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4098:10)\n    at Axios._request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4398:33)\n    at Axios.request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4258:41)\n    at async Axios.request (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/axios/dist/node/axios.cjs:4253:14)\n    at async calculateRouteWithWaypoints (file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/utils/googleMaps.js:206:22)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/maps.js:111:21",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 05:46:08 [HTTP]: POST /api/v1/maps/route/optimize [31m500[0m 1.56s {"originPlaceId":"ChIJSUxOmuWT2w8RguZlex1xnII","destinationPlaceId":"ChIJc6e3soSQ3w8R0y0OZdhO0b4","waypoints":[{"placeId":"ChIJy1G-Tt6V2w8Rn4K8xAW37YI","stopover":true,"description":"Tafo, Kumasi, Ghana"}],"optimizeWaypoints":false,"includeAlternatives":false} {
+  "service": "expense-tracker"
+}
+2025-03-28 05:46:53 [HTTP]: POST /api/v1/maps/distance [32m200[0m 1.42s {"originPlaceId":"ChIJSUxOmuWT2w8RguZlex1xnII","destinationPlaceId":"ChIJc6e3soSQ3w8R0y0OZdhO0b4"} {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:31 [HTTP]: GET /api/v1/maps/places/autocomplete?input=tafo [32m304[0m 674.411ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:31 [HTTP]: GET /api/v1/maps/places/autocomplete?input=tafos [32m200[0m 230.534ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:32 [HTTP]: GET /api/v1/maps/places/autocomplete?input=tafo [32m304[0m 211.728ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:34 [HTTP]: GET /api/v1/maps/places/details/ChIJy1G-Tt6V2w8Rn4K8xAW37YI [32m304[0m 354.378ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:34 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Tafo,+Kumasi,+Ghana [32m304[0m 643.378ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:38 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:38 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:47 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:48 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:59 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 05:49:59 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 05:50:14 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 05:50:14 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 05:50:59 [HTTP]: GET /api/v1/expenses [32m304[0m 78.303ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:50:59 [HTTP]: GET /api/v1/expenses [32m304[0m 158.516ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:00 [HTTP]: GET /api/v1/expenses [32m304[0m 20.091ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:00 [HTTP]: GET /api/v1/expenses [32m304[0m 29.329ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:03 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 13.061ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:03 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 5.655ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:18 [HTTP]: GET /api/v1/maps/places/autocomplete?input=ke [32m200[0m 685.144ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:19 [HTTP]: GET /api/v1/maps/places/autocomplete?input=kejetia [32m200[0m 228.584ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:20 [HTTP]: GET /api/v1/maps/places/details/EhtLZWpldGlhIFJvYWQsIEt1bWFzaSwgR2hhbmEiLiosChQKEglbtQce95bbDxH-Xw6ctJzR6BIUChIJSUxOmuWT2w8RguZlex1xnII [32m200[0m 242.919ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:21 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Kejetia+Road,+Kumasi,+Ghana [32m200[0m 222.417ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:26 [HTTP]: GET /api/v1/maps/places/autocomplete?input=at [32m200[0m 557.286ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:26 [HTTP]: GET /api/v1/maps/places/autocomplete?input=aton [32m200[0m 207.030ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:27 [HTTP]: GET /api/v1/maps/places/autocomplete?input=atons [32m200[0m 210.518ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:28 [HTTP]: GET /api/v1/maps/places/autocomplete?input=atonsu [32m200[0m 248.452ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:29 [HTTP]: GET /api/v1/maps/places/details/ChIJUXJjpFyR2w8RkiOnAupnmyU [32m200[0m 278.135ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:29 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Atonsu,+Kumasi,+Ghana [32m200[0m 201.582ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:35 [HTTP]: GET /api/v1/maps/places/autocomplete?input=ah [32m200[0m 644.513ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:36 [HTTP]: GET /api/v1/maps/places/autocomplete?input=aho [32m200[0m 229.120ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:36 [HTTP]: GET /api/v1/maps/places/autocomplete?input=ahod [32m200[0m 233.062ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:37 [HTTP]: GET /api/v1/maps/places/autocomplete?input=ahodwo [32m200[0m 218.108ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:38 [HTTP]: GET /api/v1/maps/places/details/ChIJ2Sit89aQ2w8RNjkaptGAtaI [32m200[0m 278.651ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:39 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Ahodwo,+Kumasi,+Ghana [32m200[0m 210.895ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:51:59 [HTTP]: POST /api/v1/maps/route/optimize [32m200[0m 1.28s {"originPlaceId":"EhtLZWpldGlhIFJvYWQsIEt1bWFzaSwgR2hhbmEiLiosChQKEglbtQce95bbDxH-Xw6ctJzR6BIUChIJSUxOmuWT2w8RguZlex1xnII","destinationPlaceId":"ChIJUXJjpFyR2w8RkiOnAupnmyU","waypoints":[{"placeId":"ChIJ2Sit89aQ2w8RNjkaptGAtaI","stopover":true,"description":"Ahodwo, Kumasi, Ghana"}],"optimizeWaypoints":false,"includeAlternatives":false} {
+  "service": "expense-tracker"
+}
+2025-03-28 05:52:13 [HTTP]: POST /api/v1/expenses/enhance-notes [32m200[0m 2.31s {"notes":"s","startingPoint":"Kejetia Road, Kumasi, Ghana","destinationPoint":"Atonsu, Kumasi, Ghana","distance":9.754,"totalCost":6.827799999999999,"journeyDate":"2025-03-28","categoryId":"67e249ac41eb1f8ea374189a"} {
+  "service": "expense-tracker"
+}
+2025-03-28 05:52:23 [HTTP]: POST /api/v1/expenses [32m201[0m 2.94s {"category":"67e249ac41eb1f8ea374189a","journeyDate":"2025-03-28","startingPoint":"Kejetia Road, Kumasi, Ghana","destinationPoint":"Atonsu, Kumasi, Ghana","startingPointPlaceId":"EhtLZWpldGlhIFJvYWQsIEt1bWFzaSwgR2hhbmEiLiosChQKEglbtQce95bbDxH-Xw6ctJzR6BIUChIJSUxOmuWT2w8RguZlex1xnII","destinationPointPlaceId":"ChIJUXJjpFyR2w8RkiOnAupnmyU","waypoints":[{"placeId":"ChIJ2Sit89aQ2w8RNjkaptGAtaI","description":"Ahodwo, Kumasi, Ghana"}],"optimizeWaypoints":false,"distance":9.754,"costPerKm":0.7,"totalCost":6.827799999999999,"notes":"{\"original\":\"s\",\"enhanced\":\"Fuel purchase of CHF 6.83 on March 28, 2025, for travel from Kejetia Road, Kumasi to Atonsu, Kumasi (9.754 km) for client meetings.  This mileage was necessary for business operations.\"}","routeSnapshot":{"distanceText":"9.8 km","distanceValue":9.754,"durationText":"23 min","durationValue":1407,"origin":{"placeId":"EhtLZWpldGlhIFJvYWQsIEt1bWFzaSwgR2hhbmEiLiosChQKEglbtQce95bbDxH-Xw6ctJzR6BIUChIJSUxOmuWT2w8RguZlex1xnII","name":"Kejetia Road","formattedAddress":"Kejetia Road, Kumasi, Ghana","location":{"lat":6.6999001,"lng":-1.6246492}},"destination":{"placeId":"ChIJUXJjpFyR2w8RkiOnAupnmyU","name":"Atonsu","formattedAddress":"Atonsu, Kumasi, Ghana","location":{"lat":6.6484188,"lng":-1.6094762}},"waypoints":[{"placeId":"ChIJ2Sit89aQ2w8RNjkaptGAtaI","name":"Ahodwo","formattedAddress":"Ahodwo, Kumasi, Ghana","location":{"lat":6.652665,"lng":-1.6217568}}],"legs":[{"distance":{"text":"6.0 km","value":6001},"duration":{"text":"16 mins","value":935},"end_address":"Ahodwo, Kumasi, Ghana","end_location":{"lat":6.6526531,"lng":-1.621746},"start_address":"Kejetia Road, Kumasi, Ghana","start_location":{"lat":6.6999001,"lng":-1.6246492},"steps":[{"distance":{"text":"0.1 km","value":136},"duration":{"text":"1 min","value":24},"end_location":{"lat":6.6994583,"lng":-1.6257761},"html_instructions":"Head <b>southwest</b> on <b>Kejetia Road</b> toward <b>Kumasi Zoo Rd</b>","polyline":{"points":"kq{g@`i|HLJHNJPJTFRDPDPDRLpA"},"start_location":{"lat":6.6999001,"lng":-1.6246492},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":248},"duration":{"text":"1 min","value":53},"end_location":{"lat":6.6981489,"lng":-1.6247578},"html_instructions":"At the roundabout, take the <b>3rd</b> exit onto <b>Okomfo Anokye Road</b>/<wbr/><b>N8</b>","maneuver":"roundabout-right","polyline":{"points":"sn{g@bp|HA@A@A@?@A@?BA@?@?B?@?B?@?@@B?@@@?@BB@@@@@@@@@@@?B@@?@?@@@?@?B?@?@?@?@A@?@A@?@A@?@A@A?A@?@A?A@C?A@A?A?A?A?A?A?CTMzBoCh@o@HKDG"},"start_location":{"lat":6.6994583,"lng":-1.6257761},"travel_mode":"DRIVING"},{"distance":{"text":"0.5 km","value":471},"duration":{"text":"1 min","value":87},"end_location":{"lat":6.6942662,"lng":-1.6234088},"html_instructions":"Turn <b>right</b> onto <b>Pampaso Road</b>","maneuver":"turn-right","polyline":{"points":"mf{g@vi|HJ?B?DA`@OJC~Ag@p@GXCjAGn@C@?@?D?p@Ch@E~@QJC`@I@?LCPGLGPGVKFELGNK@?PMHELKHI@CDGHU"},"start_location":{"lat":6.6981489,"lng":-1.6247578},"travel_mode":"DRIVING"},{"distance":{"text":"58 m","value":58},"duration":{"text":"1 min","value":10},"end_location":{"lat":6.693869899999999,"lng":-1.6231904},"html_instructions":"At the roundabout, take the <b>2nd</b> exit onto <b>Pinanko Road</b>","maneuver":"roundabout-right","polyline":{"points":"enzg@ha|H@?@??@@?@?@?@?@?@?@?@?@A@?@A@??A@??A@A@A?A@A?A?A?A@A?A?AAA?Aj@M"},"start_location":{"lat":6.6942662,"lng":-1.6234088},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":367},"duration":{"text":"1 min","value":66},"end_location":{"lat":6.690619799999999,"lng":-1.6227575},"html_instructions":"Slight <b>right</b> onto <b>Denkyemenaso Road</b>","maneuver":"turn-slight-right","polyline":{"points":"ukzg@|_|H`BGTARANAb@Ab@Ad@ATAf@AHA^Af@ALATAXA`@AZEFA@?^K`@K`@KDC"},"start_location":{"lat":6.693869899999999,"lng":-1.6231904},"travel_mode":"DRIVING"},{"distance":{"text":"0.1 km","value":103},"duration":{"text":"1 min","value":21},"end_location":{"lat":6.6898442,"lng":-1.6232067},"html_instructions":"Turn <b>right</b> onto <b>Prempen II Avenue</b>","maneuver":"turn-right","polyline":{"points":"kwyg@f}{Hd@Lf@Nr@TDLBDNP"},"start_location":{"lat":6.690619799999999,"lng":-1.6227575},"travel_mode":"DRIVING"},{"distance":{"text":"2.4 km","value":2435},"duration":{"text":"5 mins","value":295},"end_location":{"lat":6.669432,"lng":-1.617716},"html_instructions":"At the roundabout, take the <b>2nd</b> exit onto <b>Happer Rd</b>/<wbr/><b>Old Bekwai Rd</b><div style=\"font-size:0.9em\">Continue to follow Old Bekwai Rd</div>","maneuver":"roundabout-right","polyline":{"points":"oryg@``|H?@?@?@?@@??@@@@@@??@@?@?@?@?@?@?@?@??A@?@??A@??A@A?A?ARGJG@?f@MJAT?RB^@PBn@Ff@Fv@Hl@HbAFF@`BVd@Db@DT@N?`@ChAIDAZCPChCWnBQXCtAK^E^GB?\\GjBQjAMfBOtAK^EH?NAP?^AnA?N?`@EXGJCLCNEZMp@[n@[`@Qt@_@XOVMXKTKFCl@OzBk@zAa@zD_ATG|A]v@QHAf@Mp@U^Md@SXOn@a@h@c@z@u@NMv@o@POb@_@ROPIVOp@]TKb@Sb@UHCLGZOvAq@TGFCBALCPC\\ENALAd@Ed@CDAHA^EPAb@D^B"},"start_location":{"lat":6.6898442,"lng":-1.6232067},"travel_mode":"DRIVING"},{"distance":{"text":"1.7 km","value":1714},"duration":{"text":"4 mins","value":268},"end_location":{"lat":6.6545824,"lng":-1.6187218},"html_instructions":"At the roundabout, take the <b>2nd</b> exit onto <b>Melcom Road</b>","maneuver":"roundabout-right","polyline":{"points":"}rug@v}zH@@B@B@B@B@B?B@B?B?DAB?BABABABC@ABC@C@C@C@GBCj@Y@?F?dB@X@fA@P@~CDjBDH?bDBl@@dA?d@?dA?J?|CCF?N@N?T@r@FL@VHXHTHZJXJHBb@NVHhA^ZLd@N`@LDBXJrAd@^Lt@Vj@ND@hA^PFJBb@HF@NDH@VFD@RBH?J@T?X?^ChAEbBO`@ChAOv@K^Cp@Iv@K@A\\E^GNA^EzAOZE"},"start_location":{"lat":6.669432,"lng":-1.617716},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":414},"duration":{"text":"2 mins","value":98},"end_location":{"lat":6.6530659,"lng":-1.6220244},"html_instructions":"Turn <b>right</b>","maneuver":"turn-right","polyline":{"points":"cvrg@~c{HDLDP?@LfA@HHp@LjAFj@Fh@Jf@?BFXLTZd@NT~AjB@@TXBB^f@"},"start_location":{"lat":6.6545824,"lng":-1.6187218},"travel_mode":"DRIVING"},{"distance":{"text":"55 m","value":55},"duration":{"text":"1 min","value":13},"end_location":{"lat":6.6526531,"lng":-1.621746},"html_instructions":"Turn <b>left</b>","maneuver":"turn-left","polyline":{"points":"ulrg@rx{HrAu@"},"start_location":{"lat":6.6530659,"lng":-1.6220244},"travel_mode":"DRIVING"}],"traffic_speed_entry":[],"via_waypoint":[],"from":{"placeId":"EhtLZWpldGlhIFJvYWQsIEt1bWFzaSwgR2hhbmEiLiosChQKEglbtQce95bbDxH-Xw6ctJzR6BIUChIJSUxOmuWT2w8RguZlex1xnII","name":"Kejetia Road","formattedAddress":"Kejetia Road, Kumasi, Ghana","location":{"lat":6.6999001,"lng":-1.6246492}},"to":{"placeId":"ChIJ2Sit89aQ2w8RNjkaptGAtaI","name":"Ahodwo","formattedAddress":"Ahodwo, Kumasi, Ghana","location":{"lat":6.652665,"lng":-1.6217568}},"index":0},{"distance":{"text":"3.8 km","value":3753},"duration":{"text":"8 mins","value":472},"end_address":"Atonsu, Kumasi, Ghana","end_location":{"lat":6.648435999999999,"lng":-1.6094888},"start_address":"Ahodwo, Kumasi, Ghana","start_location":{"lat":6.6526531,"lng":-1.621746},"steps":[{"distance":{"text":"0.6 km","value":565},"duration":{"text":"1 min","value":59},"end_location":{"lat":6.648919599999999,"lng":-1.6184765},"html_instructions":"Head <b>southeast</b> toward <b>Melcom Road</b>","polyline":{"points":"ajrg@|v{Hf@]\\UBAjAw@\\U@Ah@]ZSXOTMZOd@UZMTS^UPKb@U|@k@p@g@LKJIDGBCTUHIJQBCJWHSDQ@EPgA"},"start_location":{"lat":6.6526531,"lng":-1.621746},"travel_mode":"DRIVING"},{"distance":{"text":"0.9 km","value":936},"duration":{"text":"2 mins","value":130},"end_location":{"lat":6.6572467,"lng":-1.6192435},"html_instructions":"Turn <b>left</b> onto <b>Melcom Road</b>","maneuver":"turn-left","polyline":{"points":"wrqg@nb{HsAIoBImDMyAIY?i@Bk@@w@FsAL{ALkGf@{@H[D{AN_@DO@_@F]DA@w@Jq@H_@Bw@JiANa@B"},"start_location":{"lat":6.648919599999999,"lng":-1.6184765},"travel_mode":"DRIVING"},{"distance":{"text":"1.2 km","value":1221},"duration":{"text":"3 mins","value":170},"end_location":{"lat":6.654929699999999,"lng":-1.6090967},"html_instructions":"Turn <b>right</b> onto <b>Osei Nkwantabisa Ave</b>","maneuver":"turn-right","polyline":{"points":"yfsg@fg{HLmBDaADaABe@@EBMHc@H_@@ARg@^u@HMNYR[x@iAdA{A^e@\\YRQ`@a@t@aAt@kAP]Ng@BS@KBW@G?{@?K?eBCqB?AEqCEiCA[IgACc@OoAESKk@I[AUKa@"},"start_location":{"lat":6.6572467,"lng":-1.6192435},"travel_mode":"DRIVING"},{"distance":{"text":"0.6 km","value":583},"duration":{"text":"1 min","value":64},"end_location":{"lat":6.6506871,"lng":-1.606126},"html_instructions":"Turn <b>right</b> onto <b>Guinness Rd</b>","maneuver":"turn-right","polyline":{"points":"ixrg@zgyH@S@GBIDONKxAw@vBkAZQ^UVOzA{@p@_@zA{@z@g@nAq@\\S\\Sp@_@f@Y"},"start_location":{"lat":6.654929699999999,"lng":-1.6090967},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":448},"duration":{"text":"1 min","value":49},"end_location":{"lat":6.648435999999999,"lng":-1.6094888},"html_instructions":"Turn <b>right</b><div style=\"font-size:0.9em\">Destination will be on the left</div>","maneuver":"turn-right","polyline":{"points":"y}qg@huxHPTf@|@BBZl@HNNVv@rAr@lA\\^t@rABDNVPXTb@P\\f@~@BBR\\"},"start_location":{"lat":6.6506871,"lng":-1.606126},"travel_mode":"DRIVING"}],"traffic_speed_entry":[],"via_waypoint":[],"from":{"placeId":"ChIJ2Sit89aQ2w8RNjkaptGAtaI","name":"Ahodwo","formattedAddress":"Ahodwo, Kumasi, Ghana","location":{"lat":6.652665,"lng":-1.6217568}},"to":{"placeId":"ChIJUXJjpFyR2w8RkiOnAupnmyU","name":"Atonsu","formattedAddress":"Atonsu, Kumasi, Ghana","location":{"lat":6.6484188,"lng":-1.6094762}},"index":1}],"optimizedWaypointOrder":null,"route":{"summary":"Old Bekwai Rd and Melcom Road","overview_polyline":{"points":"kq{g@`i|HVZVf@XjAJrACBCH@TNPRBNEJM@QTMzBoCr@{@DGJ?HAl@S~Ag@p@GdBKp@CbBIlB_@n@Sp@YhAs@JMN]D@F?JCFG@G@EACj@OzCMlBElEOfAIhBg@lA\\r@TDLRV?@?B@BBBJ@HCBCRKLGr@OzAH|Db@jAHfC\\x@Fp@CjBOdHq@tBQb@G|Hw@nCS`CAp@Ed@K\\IlAi@`D}AnAi@`M}CtDy@xAc@dAa@hAq@dByA|BmBd@YhAm@fBy@h@WlBy@j@MvD]t@B`@DJDNBPCLIHODKl@YnEDfHL|HDvFChBJtA^bBj@xHjCfCv@zAf@n@Lx@Pn@Fn@?hBIdCS`C[jC[lBUvBUJ^XdCTvBRpAF\\h@z@fC|Cb@j@zBsAjCeB`BcArBaAjBkA|@k@p@g@XUh@k@NUTk@FWPgAsAI}GWsBIuADkCT_MdAkD^mI`A\\wGXwATi@h@cAb@u@~BeD|@_At@s@t@aAt@kAP]Ng@D_@D_@C_HMyHMkBUcBUgAMw@B[HY|FaDdEaCdGiDnAs@f@YPTj@`Ad@|@fAjBr@lA\\^x@xA`@p@rAdCR\\"},"bounds":{"northeast":{"lat":6.6999001,"lng":-1.606126},"southwest":{"lat":6.648435999999999,"lng":-1.62608}},"warnings":[],"copyrights":"Powered by Google, ©2025 Google","legs":[{"distance":{"text":"6.0 km","value":6001},"duration":{"text":"16 mins","value":935},"end_address":"Ahodwo, Kumasi, Ghana","end_location":{"lat":6.6526531,"lng":-1.621746},"start_address":"Kejetia Road, Kumasi, Ghana","start_location":{"lat":6.6999001,"lng":-1.6246492},"steps":[{"distance":{"text":"0.1 km","value":136},"duration":{"text":"1 min","value":24},"end_location":{"lat":6.6994583,"lng":-1.6257761},"html_instructions":"Head <b>southwest</b> on <b>Kejetia Road</b> toward <b>Kumasi Zoo Rd</b>","polyline":{"points":"kq{g@`i|HLJHNJPJTFRDPDPDRLpA"},"start_location":{"lat":6.6999001,"lng":-1.6246492},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":248},"duration":{"text":"1 min","value":53},"end_location":{"lat":6.6981489,"lng":-1.6247578},"html_instructions":"At the roundabout, take the <b>3rd</b> exit onto <b>Okomfo Anokye Road</b>/<wbr/><b>N8</b>","maneuver":"roundabout-right","polyline":{"points":"sn{g@bp|HA@A@A@?@A@?BA@?@?B?@?B?@?@@B?@@@?@BB@@@@@@@@@@@?B@@?@?@@@?@?B?@?@?@?@A@?@A@?@A@?@A@A?A@?@A?A@C?A@A?A?A?A?A?A?CTMzBoCh@o@HKDG"},"start_location":{"lat":6.6994583,"lng":-1.6257761},"travel_mode":"DRIVING"},{"distance":{"text":"0.5 km","value":471},"duration":{"text":"1 min","value":87},"end_location":{"lat":6.6942662,"lng":-1.6234088},"html_instructions":"Turn <b>right</b> onto <b>Pampaso Road</b>","maneuver":"turn-right","polyline":{"points":"mf{g@vi|HJ?B?DA`@OJC~Ag@p@GXCjAGn@C@?@?D?p@Ch@E~@QJC`@I@?LCPGLGPGVKFELGNK@?PMHELKHI@CDGHU"},"start_location":{"lat":6.6981489,"lng":-1.6247578},"travel_mode":"DRIVING"},{"distance":{"text":"58 m","value":58},"duration":{"text":"1 min","value":10},"end_location":{"lat":6.693869899999999,"lng":-1.6231904},"html_instructions":"At the roundabout, take the <b>2nd</b> exit onto <b>Pinanko Road</b>","maneuver":"roundabout-right","polyline":{"points":"enzg@ha|H@?@??@@?@?@?@?@?@?@?@?@A@?@A@??A@??A@A@A?A@A?A?A?A@A?A?AAA?Aj@M"},"start_location":{"lat":6.6942662,"lng":-1.6234088},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":367},"duration":{"text":"1 min","value":66},"end_location":{"lat":6.690619799999999,"lng":-1.6227575},"html_instructions":"Slight <b>right</b> onto <b>Denkyemenaso Road</b>","maneuver":"turn-slight-right","polyline":{"points":"ukzg@|_|H`BGTARANAb@Ab@Ad@ATAf@AHA^Af@ALATAXA`@AZEFA@?^K`@K`@KDC"},"start_location":{"lat":6.693869899999999,"lng":-1.6231904},"travel_mode":"DRIVING"},{"distance":{"text":"0.1 km","value":103},"duration":{"text":"1 min","value":21},"end_location":{"lat":6.6898442,"lng":-1.6232067},"html_instructions":"Turn <b>right</b> onto <b>Prempen II Avenue</b>","maneuver":"turn-right","polyline":{"points":"kwyg@f}{Hd@Lf@Nr@TDLBDNP"},"start_location":{"lat":6.690619799999999,"lng":-1.6227575},"travel_mode":"DRIVING"},{"distance":{"text":"2.4 km","value":2435},"duration":{"text":"5 mins","value":295},"end_location":{"lat":6.669432,"lng":-1.617716},"html_instructions":"At the roundabout, take the <b>2nd</b> exit onto <b>Happer Rd</b>/<wbr/><b>Old Bekwai Rd</b><div style=\"font-size:0.9em\">Continue to follow Old Bekwai Rd</div>","maneuver":"roundabout-right","polyline":{"points":"oryg@``|H?@?@?@?@@??@@@@@@??@@?@?@?@?@?@?@?@??A@?@??A@??A@A?A?ARGJG@?f@MJAT?RB^@PBn@Ff@Fv@Hl@HbAFF@`BVd@Db@DT@N?`@ChAIDAZCPChCWnBQXCtAK^E^GB?\\GjBQjAMfBOtAK^EH?NAP?^AnA?N?`@EXGJCLCNEZMp@[n@[`@Qt@_@XOVMXKTKFCl@OzBk@zAa@zD_ATG|A]v@QHAf@Mp@U^Md@SXOn@a@h@c@z@u@NMv@o@POb@_@ROPIVOp@]TKb@Sb@UHCLGZOvAq@TGFCBALCPC\\ENALAd@Ed@CDAHA^EPAb@D^B"},"start_location":{"lat":6.6898442,"lng":-1.6232067},"travel_mode":"DRIVING"},{"distance":{"text":"1.7 km","value":1714},"duration":{"text":"4 mins","value":268},"end_location":{"lat":6.6545824,"lng":-1.6187218},"html_instructions":"At the roundabout, take the <b>2nd</b> exit onto <b>Melcom Road</b>","maneuver":"roundabout-right","polyline":{"points":"}rug@v}zH@@B@B@B@B@B?B@B?B?DAB?BABABABC@ABC@C@C@C@GBCj@Y@?F?dB@X@fA@P@~CDjBDH?bDBl@@dA?d@?dA?J?|CCF?N@N?T@r@FL@VHXHTHZJXJHBb@NVHhA^ZLd@N`@LDBXJrAd@^Lt@Vj@ND@hA^PFJBb@HF@NDH@VFD@RBH?J@T?X?^ChAEbBO`@ChAOv@K^Cp@Iv@K@A\\E^GNA^EzAOZE"},"start_location":{"lat":6.669432,"lng":-1.617716},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":414},"duration":{"text":"2 mins","value":98},"end_location":{"lat":6.6530659,"lng":-1.6220244},"html_instructions":"Turn <b>right</b>","maneuver":"turn-right","polyline":{"points":"cvrg@~c{HDLDP?@LfA@HHp@LjAFj@Fh@Jf@?BFXLTZd@NT~AjB@@TXBB^f@"},"start_location":{"lat":6.6545824,"lng":-1.6187218},"travel_mode":"DRIVING"},{"distance":{"text":"55 m","value":55},"duration":{"text":"1 min","value":13},"end_location":{"lat":6.6526531,"lng":-1.621746},"html_instructions":"Turn <b>left</b>","maneuver":"turn-left","polyline":{"points":"ulrg@rx{HrAu@"},"start_location":{"lat":6.6530659,"lng":-1.6220244},"travel_mode":"DRIVING"}],"traffic_speed_entry":[],"via_waypoint":[]},{"distance":{"text":"3.8 km","value":3753},"duration":{"text":"8 mins","value":472},"end_address":"Atonsu, Kumasi, Ghana","end_location":{"lat":6.648435999999999,"lng":-1.6094888},"start_address":"Ahodwo, Kumasi, Ghana","start_location":{"lat":6.6526531,"lng":-1.621746},"steps":[{"distance":{"text":"0.6 km","value":565},"duration":{"text":"1 min","value":59},"end_location":{"lat":6.648919599999999,"lng":-1.6184765},"html_instructions":"Head <b>southeast</b> toward <b>Melcom Road</b>","polyline":{"points":"ajrg@|v{Hf@]\\UBAjAw@\\U@Ah@]ZSXOTMZOd@UZMTS^UPKb@U|@k@p@g@LKJIDGBCTUHIJQBCJWHSDQ@EPgA"},"start_location":{"lat":6.6526531,"lng":-1.621746},"travel_mode":"DRIVING"},{"distance":{"text":"0.9 km","value":936},"duration":{"text":"2 mins","value":130},"end_location":{"lat":6.6572467,"lng":-1.6192435},"html_instructions":"Turn <b>left</b> onto <b>Melcom Road</b>","maneuver":"turn-left","polyline":{"points":"wrqg@nb{HsAIoBImDMyAIY?i@Bk@@w@FsAL{ALkGf@{@H[D{AN_@DO@_@F]DA@w@Jq@H_@Bw@JiANa@B"},"start_location":{"lat":6.648919599999999,"lng":-1.6184765},"travel_mode":"DRIVING"},{"distance":{"text":"1.2 km","value":1221},"duration":{"text":"3 mins","value":170},"end_location":{"lat":6.654929699999999,"lng":-1.6090967},"html_instructions":"Turn <b>right</b> onto <b>Osei Nkwantabisa Ave</b>","maneuver":"turn-right","polyline":{"points":"yfsg@fg{HLmBDaADaABe@@EBMHc@H_@@ARg@^u@HMNYR[x@iAdA{A^e@\\YRQ`@a@t@aAt@kAP]Ng@BS@KBW@G?{@?K?eBCqB?AEqCEiCA[IgACc@OoAESKk@I[AUKa@"},"start_location":{"lat":6.6572467,"lng":-1.6192435},"travel_mode":"DRIVING"},{"distance":{"text":"0.6 km","value":583},"duration":{"text":"1 min","value":64},"end_location":{"lat":6.6506871,"lng":-1.606126},"html_instructions":"Turn <b>right</b> onto <b>Guinness Rd</b>","maneuver":"turn-right","polyline":{"points":"ixrg@zgyH@S@GBIDONKxAw@vBkAZQ^UVOzA{@p@_@zA{@z@g@nAq@\\S\\Sp@_@f@Y"},"start_location":{"lat":6.654929699999999,"lng":-1.6090967},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":448},"duration":{"text":"1 min","value":49},"end_location":{"lat":6.648435999999999,"lng":-1.6094888},"html_instructions":"Turn <b>right</b><div style=\"font-size:0.9em\">Destination will be on the left</div>","maneuver":"turn-right","polyline":{"points":"y}qg@huxHPTf@|@BBZl@HNNVv@rAr@lA\\^t@rABDNVPXTb@P\\f@~@BBR\\"},"start_location":{"lat":6.6506871,"lng":-1.606126},"travel_mode":"DRIVING"}],"traffic_speed_entry":[],"via_waypoint":[]}]},"alternatives":[]}} {
+  "service": "expense-tracker"
+}
+2025-03-28 05:52:23 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m200[0m 17.897ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:52:23 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 23.842ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:53:37 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 47.196ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:53:37 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 8.847ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:53:39 [HTTP]: GET /api/v1/expenses [32m200[0m 25.561ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:53:39 [HTTP]: GET /api/v1/expenses [32m304[0m 25.938ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:56:23 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 30.302ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:56:23 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 8.735ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:58:04 [HTTP]: GET /api/v1/expenses [32m304[0m 24.349ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:58:04 [HTTP]: GET /api/v1/expenses [32m304[0m 30.432ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:58:14 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 9.702ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:58:14 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 7.208ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:58:21 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 27.491ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:59:15 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 31.960ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 05:59:15 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 9.277ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:03 [HTTP]: GET /api/v1/expenses [32m304[0m 45.941ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:03 [HTTP]: GET /api/v1/expenses [32m304[0m 37.103ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:08 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 13.315ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:08 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 16.527ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:21 [HTTP]: GET /api/v1/expenses [32m304[0m 17.790ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:21 [HTTP]: GET /api/v1/expenses [32m304[0m 22.163ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:25 [HTTP]: GET /api/v1/expenses/67e4645b96694e4aca915e61 [32m304[0m 5.861ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:25 [HTTP]: GET /api/v1/expenses/67e4645b96694e4aca915e61 [32m304[0m 14.574ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:43 [HTTP]: GET /api/v1/expenses/67e4645b96694e4aca915e61 [32m304[0m 38.410ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:43 [HTTP]: GET /api/v1/expenses/67e4645b96694e4aca915e61 [32m304[0m 6.886ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:45 [HTTP]: GET /api/v1/expenses [32m304[0m 17.019ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:45 [HTTP]: GET /api/v1/expenses [32m304[0m 25.871ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:47 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 11.539ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:00:47 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 10.683ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:01:05 [HTTP]: GET /api/v1/expenses [32m304[0m 19.805ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:01:05 [HTTP]: GET /api/v1/expenses [32m304[0m 10.397ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:01:08 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 12.170ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:01:08 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 11.095ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:01:23 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 12.523ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:01:23 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 6.887ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:05:04 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 9.134ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:08:19 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 14.043ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:08:19 [HTTP]: GET /api/v1/expenses/67e46cb7d7d3200bb036575f [32m304[0m 12.233ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:12 [HTTP]: GET /api/v1/expenses [32m304[0m 26.130ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:12 [HTTP]: GET /api/v1/expenses [32m304[0m 46.131ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:14 [HTTP]: GET /api/v1/expenses/67e45a2fe34c6aa289eadf24 [32m200[0m 15.220ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:14 [HTTP]: GET /api/v1/expenses/67e45a2fe34c6aa289eadf24 [32m304[0m 7.241ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:17 [HTTP]: GET /api/v1/expenses [32m304[0m 20.712ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:17 [HTTP]: GET /api/v1/expenses [32m304[0m 19.592ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:20 [HTTP]: GET /api/v1/expenses/67e4645b96694e4aca915e61 [32m304[0m 10.172ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:20 [HTTP]: GET /api/v1/expenses/67e4645b96694e4aca915e61 [32m304[0m 10.154ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:26 [HTTP]: GET /api/v1/expenses [32m304[0m 28.133ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:26 [HTTP]: GET /api/v1/expenses [32m304[0m 20.105ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:47 [HTTP]: GET /api/v1/expenses/67e59f9a393a8600e5c2d243 [32m304[0m 7.799ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:09:47 [HTTP]: GET /api/v1/expenses/67e59f9a393a8600e5c2d243 [32m304[0m 5.764ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:10:02 [HTTP]: GET /api/v1/expenses/67e59f9a393a8600e5c2d243 [32m304[0m 10.156ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:10:02 [HTTP]: GET /api/v1/expenses/67e59f9a393a8600e5c2d243 [32m304[0m 8.400ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:11:06 [HTTP]: GET /api/v1/expenses/67e59f9a393a8600e5c2d243 [32m304[0m 11.205ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:11:06 [HTTP]: GET /api/v1/expenses/67e59f9a393a8600e5c2d243 [32m304[0m 5.494ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:11:16 [HTTP]: GET /api/v1/expenses [32m304[0m 17.452ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:11:16 [HTTP]: GET /api/v1/expenses [32m304[0m 18.887ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:11:17 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 11.644ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:11:17 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 8.160ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:11:26 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 11.034ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:11:26 [HTTP]: GET /api/v1/expenses/67e639179638f333dc9cdb89 [32m304[0m 5.302ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:12:36 [HTTP]: GET /api/v1/expenses [32m304[0m 18.947ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:12:36 [HTTP]: GET /api/v1/expenses [32m304[0m 15.983ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:12:40 [HTTP]: GET /api/v1/expenses/67e45c8f23b17f028aca400e [32m304[0m 7.402ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 06:12:40 [HTTP]: GET /api/v1/expenses/67e45c8f23b17f028aca400e [32m304[0m 8.654ms - {
+  "service": "expense-tracker"
+}
