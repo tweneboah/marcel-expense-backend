@@ -7385,3 +7385,2340 @@
 2025-03-28 21:13:49 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 22.359ms - {
   "service": "expense-tracker"
 }
+2025-03-28 21:14:28 [HTTP]: GET /api/v1/categories/67e6e79d985443d91678cc8f [32m200[0m 46.050ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:14:28 [HTTP]: GET /api/v1/categories/67e6e79d985443d91678cc8f [32m304[0m 37.758ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:14:30 [HTTP]: GET /api/v1/categories [32m304[0m 7.542ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:14:30 [HTTP]: GET /api/v1/categories [32m304[0m 7.871ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:15:44 [HTTP]: GET /api/v1/categories [32m304[0m 52.177ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:15:44 [HTTP]: GET /api/v1/categories [32m304[0m 2.997ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:15:47 [HTTP]: GET /api/v1/categories/67e6e79d985443d91678cc8f [32m304[0m 5.502ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:15:47 [HTTP]: GET /api/v1/categories/67e6e79d985443d91678cc8f [32m304[0m 5.292ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:15:48 [HTTP]: GET /api/v1/categories/67e6e79d985443d91678cc8f [32m304[0m 18.707ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:15:48 [HTTP]: GET /api/v1/categories/67e6e79d985443d91678cc8f [32m304[0m 8.669ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:15:49 [HTTP]: GET /api/v1/categories [32m304[0m 6.248ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:15:49 [HTTP]: GET /api/v1/categories [32m304[0m 5.424ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:04 [HTTP]: GET /api/v1/categories/67e6e79d985443d91678cc8f [32m304[0m 15.002ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:04 [HTTP]: GET /api/v1/categories/67e6e79d985443d91678cc8f [32m304[0m 3.824ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:15 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 24.422ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:15 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 6.860ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:15 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 52.173ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:15 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 27.920ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:15 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 38.438ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:15 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 42.518ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:15 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 20.365ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:15 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 28.920ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:15 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 34.480ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:15 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 30.438ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:19 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 5.818ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:19 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 5.550ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:22 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 27.459ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:22 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 7.039ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:27 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 5.751ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:27 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 7.007ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:34 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 21.963ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:34 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 25.042ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:34 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 22.143ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:34 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 21.928ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:34 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 33.850ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:34 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 23.426ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:34 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 24.513ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:34 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 19.563ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:34 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 36.941ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:34 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 37.609ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:38 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 8.764ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:38 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 5.752ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:42 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 7.124ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:42 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 9.335ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:42 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 11.416ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:42 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 12.444ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:42 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 23.263ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:42 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 17.669ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:42 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 34.122ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:42 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 18.121ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:42 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 25.351ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:42 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 17.380ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:44 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 6.672ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:19:44 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 4.399ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:24 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 10.107ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:24 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 21.014ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:24 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 59.885ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:24 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 31.451ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:24 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 85.087ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:24 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 93.740ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:24 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 31.890ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:24 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 22.813ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:24 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 23.961ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:24 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 23.237ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:21:33 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=false&usageAbove=90&compareWithPrevious=true [32m200[0m 9.601ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:51 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 21.552ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:51 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 7.130ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:51 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 19.190ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:51 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 28.974ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:51 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 27.458ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:51 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 31.828ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:51 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 33.715ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:51 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 26.232ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:51 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 23.270ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:51 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 33.044ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:56 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 9.540ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:56 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 6.155ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:59 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 17.611ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:59 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 26.109ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:59 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 10.848ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:59 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 21.134ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:59 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 26.165ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:59 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 27.784ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:59 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 25.882ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:59 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 23.143ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:59 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 22.075ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:23:59 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 26.187ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:24:03 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 4.789ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:24:03 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 4.426ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:25:58 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 48.780ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:25:58 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 25.586ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:25:58 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 30.928ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:25:58 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 28.717ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:25:58 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 44.475ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:25:58 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 40.938ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:25:58 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 56.728ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:25:58 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 16.680ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:25:58 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 18.686ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:25:58 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 31.832ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:01 [HTTP]: GET /api/v1/categories/67e6e79d985443d91678cc8f [32m304[0m 4.787ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:01 [HTTP]: GET /api/v1/categories/67e6e79d985443d91678cc8f [32m304[0m 5.337ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:11 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 23.703ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:11 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 27.730ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:11 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 10.797ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:11 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 11.072ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:11 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 22.723ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:11 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 23.444ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:11 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 23.020ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:11 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 19.440ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:11 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 24.683ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:11 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 25.148ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:15 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 7.023ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:26:15 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 4.516ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:27:22 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 28.288ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:27:22 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 8.151ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:21 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 11.491ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:21 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 10.190ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:21 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 15.476ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:21 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 19.668ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:21 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 54.221ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:21 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 44.593ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:21 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 60.536ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:21 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 30.171ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:21 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 31.317ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:21 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 35.776ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:23 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 5.691ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:28:23 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 8.133ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:13 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 19.885ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:13 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 8.099ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:37 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 24.575ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:37 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 12.888ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:47 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 7.435ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:47 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 24.134ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:49 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 6.430ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:49 [HTTP]: GET /api/v1/categories/67e6e4bbdd25409d2a4823cb [32m304[0m 7.973ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:54 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 28.336ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:54 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 22.013ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:54 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 15.744ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:54 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 21.877ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:54 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 28.448ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:54 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 27.874ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:54 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 38.734ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:54 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 18.746ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:54 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 17.227ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:55 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 18.115ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:58 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [31m500[0m 25.810ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:58 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [31m500[0m 14.876ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:59 [HTTP]: GET /api/v1/categories [32m304[0m 5.924ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:29:59 [HTTP]: GET /api/v1/categories [32m304[0m 5.585ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:22 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [31m500[0m 15.791ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:23 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:23 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [31m500[0m 19.439ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:25 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [31m500[0m 21.513ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:25 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [31m500[0m 7.769ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:31 [HTTP]: GET /api/v1/categories [32m304[0m 9.541ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:31 [HTTP]: GET /api/v1/categories [32m304[0m 5.353ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:33 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:33 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [31m500[0m 16.021ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:33 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:33 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [31m500[0m 10.801ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:35 [HTTP]: GET /api/v1/budgets/67e6f238fd6de3fed15df493 [32m304[0m 19.525ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:35 [HTTP]: GET /api/v1/budgets/67e6f238fd6de3fed15df493 [32m304[0m 10.894ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:37 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:37 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [31m500[0m 13.992ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:37 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:30:37 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [31m500[0m 11.040ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:32:55 [HTTP]: GET /api/v1/categories [32m304[0m 10.050ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:32:55 [HTTP]: GET /api/v1/categories [32m304[0m 11.716ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:14 [HTTP]: POST /api/v1/budgets [32m201[0m 30.985ms {"year":2025,"month":"8","category":"67e6e79d985443d91678cc8f","amount":700,"maxDistance":80,"notes":"ff","warningThreshold":75,"criticalThreshold":90,"isActive":true,"user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:14 [HTTP]: GET /api/v1/budgets/67e7159abc715cadfb552456 [32m200[0m 18.769ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:14 [HTTP]: GET /api/v1/budgets/67e7159abc715cadfb552456 [32m304[0m 6.729ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:25 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 20.548ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:25 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 11.717ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:28 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 28.963ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:28 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:28 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:29 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:29 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 11.444ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:29 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:39 [HTTP]: GET /api/v1/categories [32m304[0m 10.577ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:39 [HTTP]: GET /api/v1/categories [32m304[0m 7.639ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:53 [HTTP]: POST /api/v1/budgets [32m201[0m 8.525ms {"year":2025,"month":3,"category":"67e6e79d985443d91678cc8c","amount":566,"maxDistance":90,"notes":"gggg","warningThreshold":75,"criticalThreshold":90,"isActive":true,"user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:54 [HTTP]: GET /api/v1/budgets/67e715c1bc715cadfb552492 [32m200[0m 13.454ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:54 [HTTP]: GET /api/v1/budgets/67e715c1bc715cadfb552492 [32m304[0m 10.606ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:58 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 20.966ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:58 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 12.612ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:33:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:35:13 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 21:35:14 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 21:35:17 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 82.628ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:35:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:35:17 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:35:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:35:17 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 17.413ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:35:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:393:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:37:52 [HTTP]: GET /api/v1/categories [32m200[0m 17.139ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:37:52 [HTTP]: GET /api/v1/categories [32m304[0m 25.778ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:38:04 [WARN]: Route not found: POST /api/v1/api/v1/budgets {
+  "service": "expense-tracker"
+}
+2025-03-28 21:38:04 [HTTP]: POST /api/v1/api/v1/budgets [33m404[0m 0.725ms {"year":2025,"month":3,"category":"67e6e79d985443d91678cc8f","amount":900,"maxDistance":899,"notes":"ggg","warningThreshold":75,"criticalThreshold":90,"isActive":true} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:38:22 [ERROR]: Error encountered {
+  "errorName": "ValidationError",
+  "errorMessage": "Budget validation failed: amount: Please add a budget amount, year: Please add a year, category: Path `category` is required.",
+  "path": "/api/v1/budgets",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "ValidationError: Budget validation failed: amount: Please add a budget amount, year: Please add a year, category: Path `category` is required.\n    at Document.invalidate (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/document.js:3329:32)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/document.js:3090:17\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:38:22 [HTTP]: POST /api/v1/budgets [33m400[0m 16.089ms {"name":"Admin","email":"admin@gmail.com","role":"sales_rep","password":"[REDACTED]","user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:19 [HTTP]: POST /api/v1/budgets [32m201[0m 10.396ms {"year":2025,"month":3,"category":"67e6e79d985443d91678cc8f","amount":900,"maxDistance":899,"notes":"ggg","warningThreshold":75,"criticalThreshold":90,"isActive":true,"user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:19 [HTTP]: GET /api/v1/budgets/67e71707fc44942026779275 [32m200[0m 47.512ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:19 [HTTP]: GET /api/v1/budgets/67e71707fc44942026779275 [32m304[0m 33.740ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:23 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m 17.228ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:23 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:23 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 11.225ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:23 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:26 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 28.248ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:26 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:26 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 18.134ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:30 [HTTP]: GET /api/v1/categories [32m304[0m 14.143ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:30 [HTTP]: GET /api/v1/categories [32m304[0m 5.957ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "A budget already exists for this period and category",
+  "path": "/api/v1/budgets",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: A budget already exists for this period and category\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:673:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:44 [HTTP]: POST /api/v1/budgets [33m400[0m 6.621ms {"year":2025,"month":3,"category":"67e6e79d985443d91678cc8c","amount":78,"maxDistance":56,"notes":"ddd","warningThreshold":75,"criticalThreshold":90,"isActive":true,"user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:56 [HTTP]: POST /api/v1/budgets [32m201[0m 10.097ms {"year":2025,"month":"9","category":"67e6e4bbdd25409d2a4823cb","amount":78,"maxDistance":56,"notes":"ddd","warningThreshold":75,"criticalThreshold":90,"isActive":true,"user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:56 [HTTP]: GET /api/v1/budgets/67e7172cfc449420267792c0 [32m200[0m 11.275ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:56 [HTTP]: GET /api/v1/budgets/67e7172cfc449420267792c0 [32m304[0m 8.903ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:59 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 17.747ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:59 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 13.970ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:39:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:40:16 [HTTP]: GET /api/v1/budgets [32m200[0m 14.405ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:40:16 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:40:50 [HTTP]: GET /api/v1/categories [32m304[0m 11.034ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:40:50 [HTTP]: GET /api/v1/categories [32m304[0m 30.319ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:41:01 [HTTP]: POST /api/v1/budgets [32m201[0m 9.531ms {"year":2025,"month":"7","category":"67e71612fc44942026779246","amount":899,"maxDistance":99,"notes":"99","warningThreshold":75,"criticalThreshold":90,"isActive":true,"user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:41:01 [HTTP]: GET /api/v1/budgets/67e7176dfc449420267792fb [32m200[0m 9.645ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:41:01 [HTTP]: GET /api/v1/budgets/67e7176dfc449420267792fb [32m304[0m 6.995ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:41:03 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m 16.868ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:41:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 3)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:41:03 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 23.279ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:41:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 3)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:42:25 [HTTP]: GET /api/v1/categories [32m304[0m 20.487ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:42:25 [HTTP]: GET /api/v1/categories [32m304[0m 4.308ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:43:43 [HTTP]: GET /api/v1/categories [32m304[0m 14.795ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:43:43 [HTTP]: GET /api/v1/categories [32m304[0m 3.886ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:43:46 [HTTP]: GET /api/v1/categories [32m304[0m 4.164ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:43:46 [HTTP]: GET /api/v1/categories [32m304[0m 3.236ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:44:32 [HTTP]: GET /api/v1/categories [33m401[0m 0.497ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:45:16 [HTTP]: POST /api/v1/budgets [33m401[0m 0.382ms {"year":2023,"month":1,"category":"test","amount":500} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:45:32 [HTTP]: GET /api/v1/categories [32m304[0m 27.188ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:45:32 [HTTP]: GET /api/v1/categories [32m304[0m 10.011ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:45:50 [HTTP]: POST /api/v1/budgets [32m201[0m 19.072ms {"year":2025,"month":"8","category":"67e71612fc44942026779246","amount":788,"maxDistance":900,"notes":"ddd","warningThreshold":75,"criticalThreshold":90,"isActive":true,"user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:45:50 [HTTP]: GET /api/v1/budgets/67e7188efc4494202677933f [32m200[0m 29.581ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:45:50 [HTTP]: GET /api/v1/budgets/67e7188efc4494202677933f [32m304[0m 24.463ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:45:54 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m 28.439ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:45:54 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:45:54 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 12.229ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:45:54 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:00 [HTTP]: GET /api/v1/categories [32m304[0m 36.557ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:00 [HTTP]: GET /api/v1/categories [32m304[0m 18.585ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:17 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m200[0m 19.484ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:17 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 28.314ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:22 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 13.781ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:22 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:22 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m200[0m 40.485ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:22 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?page=1&limit=10",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 3)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:56 [HTTP]: GET /api/v1/categories [32m304[0m 6.751ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:46:56 [HTTP]: GET /api/v1/categories [32m304[0m 9.041ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "A budget already exists for this period and category",
+  "path": "/api/v1/budgets",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: A budget already exists for this period and category\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:673:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:14 [HTTP]: POST /api/v1/budgets [33m400[0m 6.280ms {"year":2025,"month":3,"category":"67e6e79d985443d91678cc8f","amount":67,"maxDistance":78,"notes":"ddd","warningThreshold":75,"criticalThreshold":90,"isActive":true,"user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:25 [HTTP]: POST /api/v1/budgets [32m201[0m 15.133ms {"year":2025,"month":"11","category":"67e6e79d985443d91678cc8f","amount":67,"maxDistance":78,"notes":"ddd","warningThreshold":75,"criticalThreshold":90,"isActive":true,"user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:26 [HTTP]: GET /api/v1/budgets/67e718edfc449420267793d2 [32m200[0m 16.343ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:26 [HTTP]: GET /api/v1/budgets/67e718edfc449420267793d2 [32m304[0m 13.471ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/categories?isActive=true [32m200[0m 11.547ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 13.793ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/expenses?categoryId=67e71612fc44942026779246 [32m200[0m 34.099ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m200[0m 59.123ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 44.590ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 38.756ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 64.152ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/expenses?categoryId=67e71612fc44942026779246 [32m304[0m 64.161ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 61.213ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 66.826ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 73.235ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 58.551ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 20.847ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 11.162ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:41 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:44 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 17.676ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:44 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 16.535ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:48 [HTTP]: GET /api/v1/budgets [32m200[0m 14.122ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:47:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:28 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 22.816ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:28 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:28 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:28 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:28 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m 18.367ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:28 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 3)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:41 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m 43.642ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:41 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:41 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:41 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:41 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 14.068ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:41 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:55 [HTTP]: GET /api/v1/categories [32m304[0m 8.800ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:55 [HTTP]: GET /api/v1/categories [32m304[0m 4.311ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:55 [HTTP]: GET /api/v1/categories [32m304[0m 4.681ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:59 [ERROR]: Error encountered {
+  "errorName": "ValidationError",
+  "errorMessage": "Budget validation failed: category: Path `category` is required.",
+  "path": "/api/v1/budgets",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "ValidationError: Budget validation failed: category: Path `category` is required.\n    at Document.invalidate (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/document.js:3329:32)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/document.js:3090:17\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:49:59 [HTTP]: POST /api/v1/budgets [33m400[0m 16.460ms {"year":2023,"month":1,"categoryId":"67e71612fc44942026779246","amount":500,"notes":"API test budget","user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:08 [ERROR]: Error encountered {
+  "errorName": "ValidationError",
+  "errorMessage": "Budget validation failed: category: Path `category` is required.",
+  "path": "/api/v1/budgets",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "ValidationError: Budget validation failed: category: Path `category` is required.\n    at Document.invalidate (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/document.js:3329:32)\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/document.js:3090:17\n    at /Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:08 [HTTP]: POST /api/v1/budgets [33m400[0m 9.362ms {"year":2023,"month":1,"categoryId":"67e71612fc44942026779246","amount":500,"notes":"API test budget","user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:21 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "A budget already exists for this period and category",
+  "path": "/api/v1/budgets",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: A budget already exists for this period and category\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:673:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:21 [HTTP]: POST /api/v1/budgets [33m400[0m 18.750ms {"year":2025,"month":3,"category":"67e6e79d985443d91678cc8f","amount":78,"maxDistance":9,"notes":"uu","warningThreshold":75,"criticalThreshold":90,"isActive":true,"categoryId":"67e6e79d985443d91678cc8f","user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:28 [HTTP]: POST /api/v1/budgets [32m201[0m 19.977ms {"year":2025,"month":6,"category":"67e6e79d985443d91678cc8f","amount":78,"maxDistance":9,"notes":"uu","warningThreshold":75,"criticalThreshold":90,"isActive":true,"categoryId":"67e6e79d985443d91678cc8f","user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:43 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 40.806ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:43 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m 68.103ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 3)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:46 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m 35.926ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:46 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 10.359ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:56 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 106.552ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:56 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 7.008ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:50:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:09 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=false [32m304[0m 48.782ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:12 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 31.230ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:14 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025 [32m200[0m 23.851ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:43 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 37.683ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:43 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:43 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 147.197ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:56:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:57:51 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 41.202ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:57:51 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:57:51 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:57:51 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 23.497ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:57:51 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:57:51 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:57:52 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 30.952ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:57:52 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:57:52 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 10.502ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:57:52 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:275:10)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 0)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:06 [HTTP]: GET /api/v1/budgets?debug=true [32m200[0m 39.000ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?debug=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 3)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:07 [HTTP]: GET /api/v1/budgets?debug=true [32m200[0m 32.615ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:07 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?debug=true",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:25 [HTTP]: GET /api/v1/budgets?limit=100 [32m200[0m 39.669ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?limit=100",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 7)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:26 [HTTP]: GET /api/v1/budgets?limit=100 [32m200[0m 10.614ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?limit=100",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:56 [HTTP]: GET /api/v1/budgets?isActive=all&limit=100 [32m200[0m 20.934ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?isActive=all&limit=100",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 4)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:57 [HTTP]: GET /api/v1/budgets?isActive=all&limit=100 [32m200[0m 15.019ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 21:58:57 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorCode": "ERR_HTTP_HEADERS_SENT",
+  "errorMessage": "Cannot set headers after they are sent to the client",
+  "path": "/api/v1/budgets?isActive=all&limit=100",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/express/lib/response.js:278:15)\n    at file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:308:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.all (index 5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:148:28",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-03-28 21:59:39 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 21:59:40 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 21:59:43 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 21:59:44 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 21:59:47 [HTTP]: GET /api/v1/budgets [33m401[0m 1.578ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:21 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:21 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:28 [HTTP]: GET /api/v1/budgets?isActive=all&limit=100 [32m200[0m 101.223ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:29 [HTTP]: GET /api/v1/budgets?isActive=all&limit=100 [32m200[0m 28.176ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:37 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m 48.728ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:37 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 19.223ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:45 [HTTP]: GET /api/v1/budgets/67e6f238fd6de3fed15df493 [32m304[0m 16.083ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:45 [HTTP]: GET /api/v1/budgets/67e6f238fd6de3fed15df493 [32m304[0m 10.195ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:49 [HTTP]: GET /api/v1/budgets/67e6f238fd6de3fed15df493 [32m304[0m 11.918ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:49 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 12.864ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:49 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 6.749ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:49 [HTTP]: GET /api/v1/budgets/67e6f238fd6de3fed15df493 [32m304[0m 13.527ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:52 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m200[0m 28.304ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:00:52 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 25.418ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:03:36 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 40.084ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:03:37 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 25.786ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:03:44 [HTTP]: DELETE /api/v1/budgets/67e6f238fd6de3fed15df493 [32m200[0m 14.399ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:03:48 [HTTP]: GET /api/v1/budgets/67e7159abc715cadfb552456 [32m200[0m 10.332ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:03:48 [HTTP]: GET /api/v1/budgets/67e7159abc715cadfb552456 [32m304[0m 8.637ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:03:56 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m200[0m 20.657ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:03:56 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 24.641ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:06:15 [ERROR]: Error encountered {
+  "errorName": "CastError",
+  "errorMessage": "Cast to ObjectId failed for value \"all\" (type string) at path \"_id\" for model \"Budget\"",
+  "path": "/api/v1/budgets/all?year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "CastError: Cast to ObjectId failed for value \"all\" (type string) at path \"_id\" for model \"Budget\"\n    at SchemaObjectId.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/objectId.js:251:11)\n    at SchemaType.applySetters (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1255:12)\n    at SchemaType.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1673:17)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:390:32)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._findOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2648:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:405:18",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 22:06:15 [HTTP]: GET /api/v1/budgets/all?year=2025 [33m404[0m 8.205ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:06:15 [ERROR]: Error encountered {
+  "errorName": "CastError",
+  "errorMessage": "Cast to ObjectId failed for value \"all\" (type string) at path \"_id\" for model \"Budget\"",
+  "path": "/api/v1/budgets/all?year=2025",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "CastError: Cast to ObjectId failed for value \"all\" (type string) at path \"_id\" for model \"Budget\"\n    at SchemaObjectId.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/objectId.js:251:11)\n    at SchemaType.applySetters (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1255:12)\n    at SchemaType.castForQuery (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1673:17)\n    at cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:390:32)\n    at Query.cast (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._findOne (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2648:8)\n    at model.Query.exec (/Users/masynctech/Desktop/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///Users/masynctech/Desktop/Marcel-Expense-Project/backend/src/controllers/budgets.js:405:18",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-03-28 22:06:15 [HTTP]: GET /api/v1/budgets/all?year=2025 [33m404[0m 16.080ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:07:02 [HTTP]: GET /api/v1/budgets [32m200[0m 35.612ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:07:53 [HTTP]: GET /api/v1/budgets?year=2025 [32m200[0m 22.191ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:07:53 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 25.138ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:08:11 [HTTP]: GET /api/v1/budgets?year=2024 [32m200[0m 7.521ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:08:14 [HTTP]: GET /api/v1/budgets?year=2023 [32m200[0m 9.470ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:08:16 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 20.498ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:08:24 [HTTP]: GET /api/v1/categories [32m304[0m 8.920ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:08:24 [HTTP]: GET /api/v1/categories [32m304[0m 9.233ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:08:24 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m200[0m 48.253ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:08:24 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 87.825ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:44 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 39.839ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:45 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 40.412ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:46 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 37.412ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:46 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 38.980ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:47 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 32.909ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:50 [HTTP]: GET /api/v1/budgets/67e715c1bc715cadfb552492 [32m200[0m 57.765ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:50 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 65.243ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:50 [HTTP]: GET /api/v1/budgets/67e715c1bc715cadfb552492 [32m304[0m 11.911ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:50 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 5.809ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:52 [HTTP]: GET /api/v1/categories [32m304[0m 8.222ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:52 [HTTP]: GET /api/v1/categories [32m304[0m 16.563ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:52 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 38.786ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:11:52 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 18.919ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:12:49 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 75.575ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:12:49 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 23.330ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:12:58 [HTTP]: GET /api/v1/categories [32m304[0m 6.062ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:12:58 [HTTP]: GET /api/v1/categories [32m304[0m 5.784ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:12:58 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 37.974ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:12:58 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 42.771ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:25 [HTTP]: POST /api/v1/budgets [32m201[0m 34.203ms {"year":2026,"month":8,"category":"67e71612fc44942026779246","amount":890,"maxDistance":67,"notes":"ddd","warningThreshold":75,"criticalThreshold":23,"isActive":true,"categoryId":"67e71612fc44942026779246","user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:25 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 23.880ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:28 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 21.532ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:28 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 18.707ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:30 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m200[0m 25.272ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:30 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 68.652ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:44 [HTTP]: GET /api/v1/budgets/67e7159abc715cadfb552456 [32m304[0m 14.241ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:44 [HTTP]: GET /api/v1/budgets/67e7159abc715cadfb552456 [32m304[0m 9.998ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:50 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 30.962ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:50 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 31.091ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:57 [HTTP]: GET /api/v1/categories [32m304[0m 55.916ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:57 [HTTP]: GET /api/v1/categories [32m304[0m 33.601ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:57 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 114.012ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:13:57 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 17.272ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:14:14 [HTTP]: POST /api/v1/budgets [32m201[0m 22.567ms {"year":2027,"month":9,"category":"67e6e79d985443d91678cc8c","amount":9000,"maxDistance":900,"notes":"65tt","warningThreshold":75,"criticalThreshold":51,"isActive":true,"categoryId":"67e6e79d985443d91678cc8c","user":"67e6e418dd25409d2a482358"} {
+  "service": "expense-tracker"
+}
+2025-03-28 22:14:14 [HTTP]: GET /api/v1/budgets?debug=true&limit=5&sort=-year%2C-month [32m304[0m 24.324ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:14:18 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 22.771ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:14:18 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 25.837ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:14:29 [HTTP]: GET /api/v1/budgets [32m200[0m 36.761ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:16:39 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 34.592ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:16:39 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 40.701ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:16:58 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=false [32m304[0m 9.921ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:04 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 20.305ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:05 [WARN]: Route not found: GET /api/v1/api/v1/budgets?sort=-year,-month&year=2025&isActive=true {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:05 [HTTP]: GET /api/v1/api/v1/budgets?sort=-year,-month&year=2025&isActive=true [33m404[0m 1.633ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:08 [WARN]: Route not found: GET /api/v1/api/v1/budgets?sort=-year,-month&year=2025&isActive=true {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:08 [HTTP]: GET /api/v1/api/v1/budgets?sort=-year,-month&year=2025&isActive=true [33m404[0m 0.621ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:08 [WARN]: Route not found: GET /api/v1/api/v1/budgets?sort=-year,-month&year=2025&isActive=true {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:08 [HTTP]: GET /api/v1/api/v1/budgets?sort=-year,-month&year=2025&isActive=true [33m404[0m 0.623ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:20 [WARN]: Route not found: GET /api/v1/api/v1/budgets?sort=-year,-month&year=2025&isActive=true {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:20 [HTTP]: GET /api/v1/api/v1/budgets?sort=-year,-month&year=2025&isActive=true [33m404[0m 2.414ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:35 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 27.994ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:17:45 [HTTP]: GET /api/v1/budgets [32m200[0m 34.771ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:18:31 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 22:18:32 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 22:18:43 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-03-28 22:18:43 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-03-28 22:18:53 [HTTP]: GET /api/v1/budgets [32m200[0m 87.281ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:18:59 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 65.644ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:18:59 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 18.227ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:19:22 [HTTP]: GET /api/v1/budgets [32m200[0m 41.454ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:19:34 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 102.944ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:19:34 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 31.851ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:19:43 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 19.204ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:19:43 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 18.277ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:21:15 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 34.222ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:21:15 [HTTP]: GET /api/v1/budgets?sort=-year,-month&page=1&limit=10&year=2025&isActive=true [32m304[0m 35.476ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:17 [HTTP]: GET /api/v1/budgets?sort=-year,-month [32m200[0m 24.351ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:17 [HTTP]: GET /api/v1/budgets?sort=-year,-month [32m304[0m 37.742ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:19 [HTTP]: GET /api/v1/budgets [32m200[0m 31.525ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:26 [HTTP]: GET /api/v1/categories [32m304[0m 27.234ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:26 [HTTP]: GET /api/v1/categories [32m304[0m 3.370ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:26 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m200[0m 37.192ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:26 [HTTP]: GET /api/v1/categories [32m304[0m 9.301ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:26 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 31.960ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:26 [HTTP]: GET /api/v1/categories [32m304[0m 29.812ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:28 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 11.461ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:22:28 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 3.605ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:19 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 35.827ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:19 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 4.294ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:21 [HTTP]: GET /api/v1/categories [32m304[0m 5.847ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:21 [HTTP]: GET /api/v1/categories [32m304[0m 13.836ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:21 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 29.042ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:21 [HTTP]: GET /api/v1/categories [32m304[0m 16.126ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:21 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 19.994ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:21 [HTTP]: GET /api/v1/categories [32m304[0m 12.181ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:27 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 24.906ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:27 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 18.709ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:30 [HTTP]: GET /api/v1/budgets?year=2024 [32m304[0m 10.091ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:33 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 15.787ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:36 [HTTP]: GET /api/v1/categories [32m304[0m 41.947ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:36 [HTTP]: GET /api/v1/budgets?limit=5 [32m200[0m 62.236ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:36 [HTTP]: GET /api/v1/categories [32m304[0m 9.766ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:36 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 17.749ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:47 [HTTP]: GET /api/v1/categories [32m304[0m 15.638ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:47 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 22.769ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:47 [HTTP]: GET /api/v1/categories [32m304[0m 12.338ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:48 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 21.154ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:48 [HTTP]: GET /api/v1/categories [32m304[0m 17.975ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:48 [HTTP]: GET /api/v1/categories [32m304[0m 9.101ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:54 [HTTP]: GET /api/v1/expenses?status=approved&page=1&limit=10&sort=-createdAt [32m200[0m 22.537ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:58 [HTTP]: GET /api/v1/expenses/67e6e57ddd25409d2a482474 [32m304[0m 16.409ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:25:58 [HTTP]: GET /api/v1/expenses/67e6e57ddd25409d2a482474 [32m304[0m 12.831ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:26:03 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 22.575ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:26:03 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 17.331ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 29.986ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 8.718ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m200[0m 50.242ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m200[0m 91.352ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/expenses?categoryId=67e71612fc44942026779246 [32m200[0m 99.076ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m200[0m 97.066ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 57.573ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m200[0m 95.557ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 61.355ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 38.677ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/expenses?categoryId=67e71612fc44942026779246 [32m304[0m 58.562ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:35 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 46.435ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:36 [HTTP]: GET /api/v1/categories [32m304[0m 8.510ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:36 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 15.383ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:36 [HTTP]: GET /api/v1/categories [32m304[0m 11.871ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:36 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 16.779ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:36 [HTTP]: GET /api/v1/categories [32m304[0m 6.634ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:36 [HTTP]: GET /api/v1/categories [32m304[0m 119.839ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:39 [HTTP]: GET /api/v1/categories [32m304[0m 15.394ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:39 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 28.791ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:39 [HTTP]: GET /api/v1/categories [32m304[0m 34.148ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:39 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 54.246ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:39 [HTTP]: GET /api/v1/categories [32m304[0m 34.203ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:39 [HTTP]: GET /api/v1/categories [32m304[0m 10.857ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 20.119ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 21.662ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 24.362ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 36.527ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/expenses?categoryId=67e71612fc44942026779246 [32m304[0m 34.682ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 35.315ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 43.294ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 38.616ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/expenses?categoryId=67e71612fc44942026779246 [32m304[0m 22.210ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 23.627ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 26.162ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:41 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 31.680ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:44 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 19.799ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:44 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 13.950ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:45 [HTTP]: GET /api/v1/categories [32m304[0m 11.247ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:45 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 26.410ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:45 [HTTP]: GET /api/v1/categories [32m304[0m 7.032ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:45 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 17.965ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:57 [HTTP]: GET /api/v1/categories [32m304[0m 6.320ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:57 [HTTP]: GET /api/v1/categories [32m304[0m 9.522ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:57 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 49.084ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:29:57 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 24.701ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:30:04 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 20.112ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:30:04 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 16.926ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:30:06 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 24.772ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:30:06 [HTTP]: GET /api/v1/categories [32m304[0m 17.314ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:30:06 [HTTP]: GET /api/v1/categories [32m304[0m 11.609ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:30:06 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 24.322ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:30:07 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m200[0m 16.524ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:30:07 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 14.686ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:30:19 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 30.376ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:30:19 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 36.585ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:32:57 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 37.537ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:32:57 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 46.320ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:32:58 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 28.605ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:32:58 [HTTP]: GET /api/v1/categories [32m304[0m 27.771ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:32:58 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 24.142ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:32:58 [HTTP]: GET /api/v1/categories [32m304[0m 15.839ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:32:59 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 20.793ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:32:59 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 18.820ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:35:00 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 42.812ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:35:00 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 15.263ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:35:14 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 17.932ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:35:14 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 15.133ms - {
+  "service": "expense-tracker"
+}

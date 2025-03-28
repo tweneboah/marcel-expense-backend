@@ -68,10 +68,10 @@ export const getBudgets = asyncHandler(async (req, res, next) => {
   const {
     year,
     month,
-    isActive = "true",
+    isActive,
     sort = "-year,-month",
     page = 1,
-    limit = 10,
+    limit = 100,
     includeExpenses = "true",
     debug = "false",
   } = req.query;
@@ -93,6 +93,7 @@ export const getBudgets = asyncHandler(async (req, res, next) => {
     filter.month = parseInt(month);
   }
 
+  // Only apply isActive filter if explicitly specified in the request
   if (isActive === "true") {
     filter.isActive = true;
   } else if (isActive === "false") {
@@ -305,19 +306,15 @@ export const getBudgets = asyncHandler(async (req, res, next) => {
           status = "warning";
         }
 
-        res.status(200).json({
-          success: true,
-          data: {
-            ...budget._doc,
-            usage,
-            status,
-            periodLabel:
-              budget.month > 0
-                ? `${getMonthName(budget.month)} ${budget.year}`
-                : `${budget.year} (Annual)`,
-          },
-        });
-        return;
+        return {
+          ...budgetObj,
+          usage,
+          status,
+          periodLabel:
+            budget.month > 0
+              ? `${getMonthName(budget.month)} ${budget.year}`
+              : `${budget.year} (Annual)`,
+        };
       }
 
       // Fall back to aggregate if direct query didn't find anything
