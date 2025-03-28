@@ -9722,3 +9722,747 @@
 2025-03-28 22:35:14 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 15.133ms - {
   "service": "expense-tracker"
 }
+2025-03-28 22:42:31 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 27.325ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:43:46 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 49.205ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:43:46 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 20.415ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:43:47 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 31.400ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:43:47 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 27.068ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:44:20 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 33.984ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:45:27 [HTTP]: GET /api/v1/budgets?page=1&limit=10&isActive=true [32m200[0m 26.280ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:45:32 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2025 [32m200[0m 289.208ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:45:32 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2025 [32m304[0m 16.746ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:45:40 [HTTP]: GET /api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023 [32m304[0m 10.517ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:45:40 [HTTP]: GET /api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023 [32m304[0m 3.390ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:45:42 [HTTP]: GET /api/v1/analytics/expenses/category-breakdown?startDate=2025-01-01&endDate=2025-12-31 [32m200[0m 15.974ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:45:42 [HTTP]: GET /api/v1/analytics/expenses/category-breakdown?startDate=2025-01-01&endDate=2025-12-31 [32m304[0m 8.810ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:45:44 [HTTP]: GET /api/v1/analytics/expenses/trends?periodType=month&months=6&targetYear=2025 [32m200[0m 13.573ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:45:44 [HTTP]: GET /api/v1/analytics/expenses/trends?periodType=month&months=6&targetYear=2025 [32m200[0m 6.949ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:46:41 [HTTP]: GET /api/v1/analytics/expenses/trends?periodType=month&months=12&targetYear=2025 [32m200[0m 17.376ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:47:51 [HTTP]: GET /api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false [32m200[0m 49.920ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:47:51 [HTTP]: GET /api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false [32m200[0m 6.251ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:47:51 [HTTP]: GET /api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false [32m200[0m 7.099ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:47:51 [HTTP]: GET /api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false [32m200[0m 8.541ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:47:53 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 13.202ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:47:53 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 7.966ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:49:59 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 63.635ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:49:59 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 7.786ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:50:58 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 12.362ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:14 [HTTP]: GET /api/v1/categories [32m304[0m 25.954ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:14 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 75.486ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:14 [HTTP]: GET /api/v1/categories [32m304[0m 23.033ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:14 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 32.251ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:16 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 19.433ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:16 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 22.128ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:16 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 21.966ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:16 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 15.008ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:17 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 14.472ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:17 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 11.215ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:19 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 10.457ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 12.775ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 12.430ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 33.340ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/expenses?categoryId=67e71612fc44942026779246 [32m304[0m 37.835ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 36.992ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 42.585ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 50.977ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/expenses?categoryId=67e71612fc44942026779246 [32m304[0m 37.783ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 28.089ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 33.036ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:20 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 34.027ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:22 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 44.394ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:22 [HTTP]: GET /api/v1/budgets?year=2025 [32m304[0m 18.948ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:23 [HTTP]: GET /api/v1/categories [32m304[0m 13.243ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:23 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 24.235ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:23 [HTTP]: GET /api/v1/categories [32m304[0m 6.482ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:23 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 27.539ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:23 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 21.407ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:51:23 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 9.193ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:37 [HTTP]: GET /api/v1/categories [32m304[0m 21.873ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:37 [HTTP]: GET /api/v1/categories [32m304[0m 5.021ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:37 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 83.626ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:37 [HTTP]: GET /api/v1/budgets?limit=5 [32m304[0m 11.512ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:38 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 30.335ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:38 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 22.045ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:46 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2025 [32m304[0m 13.564ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:46 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2025 [32m304[0m 7.168ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:48 [HTTP]: GET /api/v1/analytics/expenses/trends?periodType=month&months=6&targetYear=2025 [32m200[0m 6.954ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:48 [HTTP]: GET /api/v1/analytics/expenses/trends?periodType=month&months=6&targetYear=2025 [32m200[0m 19.136ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:49 [HTTP]: GET /api/v1/analytics/expenses/yearly-comparison?year1=2024&year2=2025 [32m200[0m 17.761ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:49 [HTTP]: GET /api/v1/analytics/expenses/yearly-comparison?year1=2024&year2=2025 [32m304[0m 6.695ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:53 [HTTP]: GET /api/v1/categories [32m304[0m 8.855ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:53 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m200[0m 33.724ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:53 [HTTP]: GET /api/v1/categories [32m304[0m 21.305ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:53 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 16.464ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:58 [HTTP]: GET /api/v1/analytics/expenses/yearly-comparison?year1=2024&year2=2025 [32m304[0m 50.651ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:52:58 [HTTP]: GET /api/v1/analytics/expenses/yearly-comparison?year1=2024&year2=2025 [32m304[0m 6.190ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:09 [HTTP]: GET /api/v1/categories [32m304[0m 11.763ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:09 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 22.823ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:09 [HTTP]: GET /api/v1/categories [32m304[0m 7.722ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:09 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 16.802ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:09 [HTTP]: GET /api/v1/categories [32m304[0m 7.565ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:09 [HTTP]: GET /api/v1/categories [32m304[0m 4.424ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:18 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2025 [32m304[0m 10.294ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:18 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2025 [32m304[0m 5.944ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:20 [HTTP]: GET /api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023 [32m304[0m 29.408ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:20 [HTTP]: GET /api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023 [32m304[0m 14.324ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:21 [HTTP]: GET /api/v1/analytics/expenses/category-breakdown?startDate=2025-01-01&endDate=2025-12-31 [32m304[0m 30.124ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:21 [HTTP]: GET /api/v1/analytics/expenses/category-breakdown?startDate=2025-01-01&endDate=2025-12-31 [32m304[0m 6.498ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:21 [HTTP]: GET /api/v1/analytics/expenses/trends?periodType=month&months=6&targetYear=2025 [32m200[0m 11.301ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:21 [HTTP]: GET /api/v1/analytics/expenses/trends?periodType=month&months=6&targetYear=2025 [32m200[0m 4.897ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:22 [HTTP]: GET /api/v1/analytics/expenses/yearly-comparison?year1=2024&year2=2025 [32m304[0m 9.920ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:22 [HTTP]: GET /api/v1/analytics/expenses/yearly-comparison?year1=2024&year2=2025 [32m304[0m 8.035ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:27 [HTTP]: GET /api/v1/analytics/expenses/trends?periodType=month&months=6&targetYear=2025 [32m200[0m 15.511ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:27 [HTTP]: GET /api/v1/analytics/expenses/trends?periodType=month&months=6&targetYear=2025 [32m200[0m 10.987ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:55 [HTTP]: GET /api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023 [32m304[0m 13.248ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:53:55 [HTTP]: GET /api/v1/analytics/expenses/period-detail?periodType=month&periodValue=8&year=2023 [32m304[0m 14.292ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:26 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 38.427ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:26 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 34.844ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:26 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 14.115ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:26 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true&compareWithPrevious=false [32m304[0m 9.407ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:26 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 46.573ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:26 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 50.700ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:26 [HTTP]: GET /api/v1/expenses?categoryId=67e71612fc44942026779246 [32m304[0m 59.027ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:26 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 47.109ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:27 [HTTP]: GET /api/v1/expenses?categoryId=67e6e4bbdd25409d2a4823cb [32m304[0m 36.255ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:27 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8f [32m304[0m 32.557ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:27 [HTTP]: GET /api/v1/expenses?categoryId=67e71612fc44942026779246 [32m304[0m 32.862ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:27 [HTTP]: GET /api/v1/expenses?categoryId=67e6e79d985443d91678cc8c [32m304[0m 25.006ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:30 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 12.407ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:30 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 7.422ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:31 [HTTP]: GET /api/v1/advanced-reports/chart-data?chartType=pie&startDate=2025-01-01&endDate=2025-12-31 [32m200[0m 12.902ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:31 [HTTP]: GET /api/v1/advanced-reports/chart-data?chartType=pie&startDate=2025-01-01&endDate=2025-12-31 [32m304[0m 6.290ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:34 [HTTP]: GET /api/v1/advanced-reports/forecast?months=3&method=seasonal [32m200[0m 12.453ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:34 [HTTP]: GET /api/v1/advanced-reports/forecast?months=3&method=seasonal [32m304[0m 6.734ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:55:53 [HTTP]: GET /api/v1/advanced-reports/forecast?months=3&method=arima [32m200[0m 10.313ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:56:28 [HTTP]: GET /api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false [32m200[0m 31.673ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:56:28 [HTTP]: GET /api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false [32m200[0m 10.732ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:56:29 [HTTP]: GET /api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false [32m200[0m 5.963ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:56:29 [HTTP]: GET /api/v1/advanced-reports/ytd?year=2025&compareWithPreviousYear=false [32m200[0m 26.194ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:56:32 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 13.031ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:56:32 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 8.773ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:56:36 [HTTP]: GET /api/v1/advanced-reports/chart-data?chartType=pie&startDate=2025-01-01&endDate=2025-12-31 [32m200[0m 7.957ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:56:36 [HTTP]: GET /api/v1/advanced-reports/chart-data?chartType=pie&startDate=2025-01-01&endDate=2025-12-31 [32m200[0m 6.336ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:56:47 [HTTP]: GET /api/v1/advanced-reports/forecast?months=3&method=seasonal [32m304[0m 11.481ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:56:47 [HTTP]: GET /api/v1/advanced-reports/forecast?months=3&method=seasonal [32m304[0m 6.524ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 22:59:49 [HTTP]: GET /api/v1/reports?limit=10&page=1&sort=-createdAt [33m401[0m 0.292ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:00:01 [HTTP]: GET /api/v1/reports?limit=10&page=1&sort=-createdAt [32m200[0m 17.076ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:00:03 [HTTP]: GET /api/v1/reports?limit=10&page=1&sort=-createdAt [32m200[0m 6.098ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:00:04 [HTTP]: GET /api/v1/reports?limit=10&page=1&sort=-createdAt [32m200[0m 5.192ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:00:07 [HTTP]: GET /api/v1/reports [32m200[0m 5.217ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:00:42 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2023 [32m200[0m 7.731ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:00:43 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2023 [32m200[0m 2.907ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:00:44 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2023 [32m200[0m 17.412ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:00:48 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2025 [32m200[0m 8.348ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:01:05 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2025 [32m304[0m 62.521ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:01:05 [HTTP]: GET /api/v1/analytics/expenses/time-summary?periodType=month&year=2025 [32m304[0m 26.374ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:01:37 [HTTP]: GET /api/v1/analytics/expenses/category-breakdown?startDate=2025-01-01&endDate=2025-12-31 [32m304[0m 36.429ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:01:37 [HTTP]: GET /api/v1/analytics/expenses/category-breakdown?startDate=2025-01-01&endDate=2025-12-31 [32m304[0m 8.819ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:01:52 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 39.223ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:01:52 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 6.314ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:01:59 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2026&month=2&debug=true [32m304[0m 11.744ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:02:43 [HTTP]: GET /api/v1/categories [32m304[0m 22.477ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:02:43 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 47.007ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:02:43 [HTTP]: GET /api/v1/categories [32m304[0m 11.502ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:02:43 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 10.148ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:02:47 [HTTP]: GET /api/v1/categories [32m304[0m 16.703ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:02:47 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 28.606ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:02:47 [HTTP]: GET /api/v1/categories [32m304[0m 14.959ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:02:47 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 37.782ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:03:03 [HTTP]: GET /api/v1/categories [32m304[0m 18.139ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:03:03 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 26.850ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:03:03 [HTTP]: GET /api/v1/categories [32m304[0m 7.054ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:03:03 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 9.240ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:04:14 [HTTP]: GET /api/v1/categories [32m304[0m 34.466ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:04:14 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 42.448ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:04:14 [HTTP]: GET /api/v1/categories [32m304[0m 12.113ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:04:14 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 21.564ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:04 [HTTP]: GET /api/v1/categories [32m304[0m 230.512ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:04 [HTTP]: GET /api/v1/categories [32m304[0m 54.076ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:04 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 110.030ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:04 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 20.377ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:07 [HTTP]: GET /api/v1/categories [32m304[0m 84.871ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:07 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 50.744ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:07 [HTTP]: GET /api/v1/categories [32m304[0m 11.530ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:07 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 12.927ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:09 [HTTP]: GET /api/v1/categories [32m304[0m 36.500ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:09 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 52.968ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:09 [HTTP]: GET /api/v1/categories [32m304[0m 14.388ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:09 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 10.145ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:16 [HTTP]: GET /api/v1/categories [32m304[0m 11.182ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:16 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 34.859ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:16 [HTTP]: GET /api/v1/categories [32m304[0m 22.762ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:16 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 33.146ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:17 [HTTP]: GET /api/v1/categories [32m304[0m 25.094ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:17 [HTTP]: GET /api/v1/categories [32m304[0m 9.231ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:17 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 26.460ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:17 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 12.545ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:17 [HTTP]: GET /api/v1/categories [32m304[0m 23.817ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:17 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 20.411ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:17 [HTTP]: GET /api/v1/categories [32m304[0m 8.277ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:17 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 10.372ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:18 [HTTP]: GET /api/v1/categories [32m304[0m 9.406ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:18 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 53.908ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:18 [HTTP]: GET /api/v1/categories [32m304[0m 41.800ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:05:18 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date:desc [32m304[0m 14.279ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:07:09 [HTTP]: GET /api/v1/categories [32m304[0m 24.466ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:07:09 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date&sortDirection=desc [32m200[0m 47.151ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:07:43 [HTTP]: GET /api/v1/categories [32m304[0m 40.474ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:07:43 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date&sortDirection=desc [32m304[0m 54.914ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:07:43 [HTTP]: GET /api/v1/categories [32m304[0m 16.987ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:07:43 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date&sortDirection=desc [32m304[0m 18.671ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:08:08 [HTTP]: GET /api/v1/categories [32m304[0m 19.963ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:08:08 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date&sortDirection=desc [32m304[0m 25.749ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:08:08 [HTTP]: GET /api/v1/categories [32m304[0m 6.851ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:08:08 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=date&sortDirection=desc [32m304[0m 8.452ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:08:17 [HTTP]: GET /api/v1/categories [32m304[0m 11.381ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:08:17 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m200[0m 23.742ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:09:33 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc&startDate=2025-02-28&endDate=2025-04-05 [32m200[0m 55.144ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:09:41 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc&startDate=2025-04-18&endDate=2025-04-05 [32m200[0m 7.089ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:10:50 [HTTP]: GET /api/v1/categories [32m304[0m 6.609ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:10:50 [HTTP]: GET /api/v1/categories [32m304[0m 54.982ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:10:50 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 79.080ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:10:50 [HTTP]: GET /api/v1/categories [32m304[0m 15.070ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:10:50 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 16.880ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:10:50 [HTTP]: GET /api/v1/categories [32m304[0m 5.380ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:10:57 [HTTP]: GET /api/v1/advanced-reports/forecast?months=3&method=seasonal [32m304[0m 32.256ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:10:57 [HTTP]: GET /api/v1/advanced-reports/forecast?months=3&method=seasonal [32m304[0m 7.304ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:11:02 [HTTP]: GET /api/v1/categories [32m304[0m 10.943ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:11:02 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 14.558ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:11:02 [HTTP]: GET /api/v1/categories [32m304[0m 8.400ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:11:02 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 11.540ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:11:04 [HTTP]: GET /api/v1/budgets/summary?year=2025 [32m200[0m 16.033ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:11:04 [HTTP]: GET /api/v1/budgets/summary?year=2025 [32m304[0m 10.057ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:11:09 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 17.060ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:11:09 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 22.680ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:12:09 [HTTP]: GET /api/v1/categories [32m304[0m 14.671ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:12:09 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 21.589ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:12:09 [HTTP]: GET /api/v1/categories [32m304[0m 17.735ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:12:09 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 20.840ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:12:52 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 21.826ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:14:31 [HTTP]: GET /api/v1/advanced-reports/expenses?year=2023&quarter=2&minDistance=100&groupBy=category [32m200[0m 28.668ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:14:44 [HTTP]: GET /api/v1/advanced-reports/expenses?year=2023 [32m200[0m 10.608ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:14:50 [HTTP]: GET /api/v1/advanced-reports/expenses?year=2025 [32m200[0m 29.725ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:15:58 [HTTP]: GET /api/v1/categories [32m304[0m 34.284ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:15:58 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 41.544ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:15:58 [HTTP]: GET /api/v1/categories [32m304[0m 5.701ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:15:58 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 14.902ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:16:47 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 27.127ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:16:47 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2025&month=2&debug=true [32m304[0m 25.604ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:16:56 [HTTP]: GET /api/v1/advanced-reports/budget-comparison?year=2024&month=2&debug=true [32m304[0m 23.531ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:18:18 [HTTP]: GET /api/v1/budgets/summary?year=2025 [32m304[0m 37.140ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:18:18 [HTTP]: GET /api/v1/budgets/summary?year=2025 [32m304[0m 9.381ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:18:24 [HTTP]: GET /api/v1/categories [32m304[0m 40.940ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:18:24 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 18.252ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:18:24 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 17.939ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:18:24 [HTTP]: GET /api/v1/categories [32m304[0m 24.774ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:23:29 [HTTP]: GET /api/v1/categories [32m304[0m 27.264ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:23:29 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 54.267ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:23:29 [HTTP]: GET /api/v1/categories [32m304[0m 7.470ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:23:29 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 10.773ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:23:35 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=distance&sortDirection=desc [32m200[0m 18.994ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:24:14 [HTTP]: GET /api/v1/categories [32m304[0m 40.714ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:24:14 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 61.202ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:24:14 [HTTP]: GET /api/v1/categories [32m304[0m 21.311ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:24:14 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 22.336ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:24:55 [HTTP]: GET /api/v1/categories [32m304[0m 12.928ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:24:55 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 14.212ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:24:55 [HTTP]: GET /api/v1/categories [32m304[0m 4.664ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:24:55 [HTTP]: GET /api/v1/categories [32m304[0m 51.760ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:24:55 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 61.562ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:24:55 [HTTP]: GET /api/v1/categories [32m304[0m 13.833ms - {
+  "service": "expense-tracker"
+}
