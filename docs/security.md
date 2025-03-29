@@ -1,4 +1,3 @@
-
 We are focusing on frontend part of this project
 
 # Security Implementation Documentation
@@ -188,3 +187,17 @@ Regularly test the security headers using:
 1. [Mozilla Observatory](https://observatory.mozilla.org/)
 2. [SecurityHeaders.com](https://securityheaders.com/)
 3. [OWASP ZAP](https://www.zaproxy.org/) for comprehensive security testing
+
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/expense-tracker
+JWT_SECRET=73DJSJSJS3Jhkddjsasl
+JWT_EXPIRE=30d
+JWT_COOKIE_EXPIRE=30
+GOOGLE_MAPS_API_KEY=AIzaSyBmSjzDusBg-elrYYeZ8ODJ69slrZt-ljw
+DEFAULT_COST_PER_KM=0.70
+BASE_URL=http://localhost:5000
+API_INTERNAL_TOKEN=ExpenseBudgetAPIToken2024
+
+# Gemini AI API Configuration
+
+GEMINI_API_KEY=AIzaSyDlrivpcgCn6qJUXHd4iefL4ePLZgmZMyc

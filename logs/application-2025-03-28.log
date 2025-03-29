@@ -10466,3 +10466,60 @@
 2025-03-28 23:24:55 [HTTP]: GET /api/v1/categories [32m304[0m 13.833ms - {
   "service": "expense-tracker"
 }
+2025-03-28 23:26:03 [HTTP]: GET /api/v1/advanced-reports/forecast?months=3&method=seasonal [32m304[0m 71.514ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:26:03 [HTTP]: GET /api/v1/advanced-reports/forecast?months=3&method=seasonal [32m304[0m 22.689ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:26:12 [HTTP]: GET /api/v1/advanced-reports/forecast?months=6&method=seasonal [32m200[0m 9.896ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:26:13 [HTTP]: GET /api/v1/advanced-reports/forecast?months=12&method=seasonal [32m200[0m 7.928ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:26:14 [HTTP]: GET /api/v1/advanced-reports/forecast?months=1&method=seasonal [32m200[0m 5.120ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:26:40 [HTTP]: GET /api/v1/categories [32m304[0m 6.652ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:26:40 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 23.930ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:26:40 [HTTP]: GET /api/v1/categories [32m304[0m 9.268ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:26:40 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 27.873ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:27:01 [HTTP]: GET /api/v1/categories [32m304[0m 11.969ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:27:01 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 19.328ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:27:01 [HTTP]: GET /api/v1/categories [32m304[0m 19.697ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:27:01 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 20.210ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:27:01 [HTTP]: GET /api/v1/categories [32m304[0m 9.044ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:27:01 [HTTP]: GET /api/v1/categories [32m304[0m 5.092ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:28:56 [HTTP]: GET /api/v1/categories [32m304[0m 36.358ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:28:56 [HTTP]: GET /api/v1/categories [32m304[0m 22.007ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:28:56 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 48.938ms - {
+  "service": "expense-tracker"
+}
+2025-03-28 23:28:56 [HTTP]: GET /api/v1/advanced-reports/expenses?page=1&limit=10&sortBy=journeyDate&sortDirection=desc [32m304[0m 19.066ms - {
+  "service": "expense-tracker"
+}
