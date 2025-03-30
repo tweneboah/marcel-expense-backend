@@ -890,3 +890,13 @@
 2025-03-30 16:20:09 [INFO]: Default data initialization complete {
   "service": "database-connection"
 }
+2025-03-30 17:47:32 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-03-30 17:48:02 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
