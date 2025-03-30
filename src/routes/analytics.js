@@ -6,12 +6,16 @@ import {
   getExpensesByCategory,
   getExpenseTrends,
   getYearlyComparison,
+  getDashboardSummary,
 } from "../controllers/analytics.js";
 
 const router = express.Router();
 
 // All routes need authentication
 router.use(protect);
+
+// Dashboard summary
+router.get("/dashboard", getDashboardSummary);
 
 // Time period summaries
 router.get("/expenses/time-summary", getExpensesByTimePeriod);

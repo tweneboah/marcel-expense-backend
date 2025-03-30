@@ -1,6 +1,7 @@
 import User from "../models/User.js";
 import asyncHandler from "express-async-handler";
 import ErrorResponse from "../utils/errorResponse.js";
+import bcrypt from "bcryptjs";
 
 // @desc    Get all users
 // @route   GET /api/v1/users
@@ -120,6 +121,33 @@ export const updateUser = asyncHandler(async (req, res, next) => {
     return next(
       new ErrorResponse(`User not found with id of ${req.params.id}`, 404)
     );
+  }
+
+  // If attempting to update status to inactive, check if this is the last active admin
+  if (
+    req.body.status === "inactive" &&
+    user.role === "admin" &&
+    user.status === "active"
+  ) {
+    const activeAdminCount = await User.countDocuments({
+      role: "admin",
+      status: "active",
+    });
+
+    if (activeAdminCount <= 1) {
+      return next(
+        new ErrorResponse(
+          "Cannot deactivate the last active admin account",
+          400
+        )
+      );
+    }
+  }
+
+  // Handle password update separately to ensure proper hashing
+  if (req.body.password) {
+    const salt = await bcrypt.genSalt(10);
+    req.body.password = await bcrypt.hash(req.body.password, salt);
   }
 
   user = await User.findByIdAndUpdate(req.params.id, req.body, {

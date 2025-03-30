@@ -893,10 +893,272 @@ export const getYearlyComparison = asyncHandler(async (req, res, next) => {
   });
 });
 
-export default {
-  getExpensesByTimePeriod,
-  getExpensesForPeriod,
-  getExpensesByCategory,
-  getExpenseTrends,
-  getYearlyComparison,
-};
+/**
+ * @desc    Get dashboard summary for the main frontend dashboard
+ * @route   GET /api/v1/analytics/dashboard
+ * @access  Private
+ */
+export const getDashboardSummary = asyncHandler(async (req, res, next) => {
+  // Verify user authentication
+  if (!req.user) {
+    return next(new ErrorResponse("User authentication required", 401));
+  }
+
+  // Determine user filter based on role
+  let userFilter = {};
+  if (req.user.role !== "admin") {
+    // Regular users can only see their own data
+    userFilter = { user: req.user._id };
+  }
+
+  // Get current date info
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+  const currentMonth = currentDate.getMonth() + 1; // Months are 0-indexed in JS
+
+  // Calculate current quarter
+  const currentQuarter = Math.ceil(currentMonth / 3);
+
+  // Set up date ranges
+  const yearStartDate = new Date(currentYear, 0, 1);
+  const yearEndDate = new Date(currentYear, 11, 31, 23, 59, 59, 999);
+
+  const monthStartDate = new Date(currentYear, currentMonth - 1, 1);
+  const monthEndDate = new Date(currentYear, currentMonth, 0, 23, 59, 59, 999);
+
+  const quarterStartMonth = (currentQuarter - 1) * 3;
+  const quarterStartDate = new Date(currentYear, quarterStartMonth, 1);
+  const quarterEndDate = new Date(
+    currentYear,
+    quarterStartMonth + 3,
+    0,
+    23,
+    59,
+    59,
+    999
+  );
+
+  // Get key metrics - yearly totals
+  const yearlyMetrics = await Expense.aggregate([
+    {
+      $match: {
+        ...userFilter,
+        journeyDate: {
+          $gte: yearStartDate,
+          $lte: yearEndDate,
+        },
+      },
+    },
+    {
+      $group: {
+        _id: null,
+        totalTrips: { $sum: 1 },
+        totalDistance: { $sum: "$distance" },
+        totalCost: { $sum: "$totalCost" },
+        avgDistance: { $avg: "$distance" },
+        avgCost: { $avg: "$totalCost" },
+      },
+    },
+  ]);
+
+  // Get key metrics - monthly totals
+  const monthlyMetrics = await Expense.aggregate([
+    {
+      $match: {
+        ...userFilter,
+        journeyDate: {
+          $gte: monthStartDate,
+          $lte: monthEndDate,
+        },
+      },
+    },
+    {
+      $group: {
+        _id: null,
+        totalTrips: { $sum: 1 },
+        totalDistance: { $sum: "$distance" },
+        totalCost: { $sum: "$totalCost" },
+        avgDistance: { $avg: "$distance" },
+        avgCost: { $avg: "$totalCost" },
+      },
+    },
+  ]);
+
+  // Get key metrics - quarterly totals
+  const quarterlyMetrics = await Expense.aggregate([
+    {
+      $match: {
+        ...userFilter,
+        journeyDate: {
+          $gte: quarterStartDate,
+          $lte: quarterEndDate,
+        },
+      },
+    },
+    {
+      $group: {
+        _id: null,
+        totalTrips: { $sum: 1 },
+        totalDistance: { $sum: "$distance" },
+        totalCost: { $sum: "$totalCost" },
+        avgDistance: { $avg: "$distance" },
+        avgCost: { $avg: "$totalCost" },
+      },
+    },
+  ]);
+
+  // Get recent expenses
+  const recentExpenses = await Expense.find(userFilter)
+    .sort({ journeyDate: -1 })
+    .limit(5)
+    .populate("category", "name color")
+    .populate("user", "name");
+
+  // Get category breakdown for current year
+  const categoryBreakdown = await Expense.aggregate([
+    {
+      $match: {
+        ...userFilter,
+        journeyDate: {
+          $gte: yearStartDate,
+          $lte: yearEndDate,
+        },
+      },
+    },
+    {
+      $group: {
+        _id: "$category",
+        totalTrips: { $sum: 1 },
+        totalDistance: { $sum: "$distance" },
+        totalCost: { $sum: "$totalCost" },
+      },
+    },
+    {
+      $lookup: {
+        from: "categories",
+        localField: "_id",
+        foreignField: "_id",
+        as: "categoryInfo",
+      },
+    },
+    {
+      $unwind: "$categoryInfo",
+    },
+    {
+      $project: {
+        _id: 0,
+        categoryId: "$_id",
+        categoryName: "$categoryInfo.name",
+        color: "$categoryInfo.color",
+        totalTrips: 1,
+        totalDistance: 1,
+        totalCost: 1,
+      },
+    },
+    {
+      $sort: { totalCost: -1 },
+    },
+  ]);
+
+  // Monthly expenses for current year (for chart)
+  const monthlyExpensesChart = await Expense.aggregate([
+    {
+      $match: {
+        ...userFilter,
+        journeyDate: {
+          $gte: yearStartDate,
+          $lte: yearEndDate,
+        },
+      },
+    },
+    {
+      $group: {
+        _id: { month: { $month: "$journeyDate" } },
+        totalTrips: { $sum: 1 },
+        totalDistance: { $sum: "$distance" },
+        totalCost: { $sum: "$totalCost" },
+      },
+    },
+    {
+      $sort: { "_id.month": 1 },
+    },
+    {
+      $project: {
+        _id: 0,
+        month: "$_id.month",
+        monthName: {
+          $let: {
+            vars: {
+              monthsArray: [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
+              ],
+            },
+            in: {
+              $arrayElemAt: ["$$monthsArray", { $subtract: ["$_id.month", 1] }],
+            },
+          },
+        },
+        totalTrips: 1,
+        totalDistance: 1,
+        totalCost: 1,
+      },
+    },
+  ]);
+
+  // Format numbers to 2 decimal places
+  const formatMetrics = (metrics) => {
+    if (metrics.length === 0) {
+      return {
+        totalTrips: 0,
+        totalDistance: 0,
+        totalCost: 0,
+        avgDistance: 0,
+        avgCost: 0,
+      };
+    }
+
+    return {
+      totalTrips: metrics[0].totalTrips,
+      totalDistance: parseFloat(metrics[0].totalDistance.toFixed(2)),
+      totalCost: parseFloat(metrics[0].totalCost.toFixed(2)),
+      avgDistance: parseFloat(metrics[0].avgDistance.toFixed(2)),
+      avgCost: parseFloat(metrics[0].avgCost.toFixed(2)),
+    };
+  };
+
+  // Format the response
+  const dashboardData = {
+    yearlyMetrics: formatMetrics(yearlyMetrics),
+    monthlyMetrics: formatMetrics(monthlyMetrics),
+    quarterlyMetrics: formatMetrics(quarterlyMetrics),
+    recentExpenses,
+    categoryBreakdown,
+    monthlyExpensesChart,
+    timeInfo: {
+      currentYear,
+      currentMonth,
+      currentMonthName: new Date(currentYear, currentMonth - 1).toLocaleString(
+        "default",
+        { month: "long" }
+      ),
+      currentQuarter,
+    },
+    currency: "CHF", // Using Swiss Francs as specified in requirements
+  };
+
+  res.status(200).json({
+    success: true,
+    data: dashboardData,
+  });
+});

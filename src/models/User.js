@@ -30,6 +30,11 @@ const UserSchema = new mongoose.Schema(
       enum: ["admin", "sales_rep"],
       default: "sales_rep",
     },
+    status: {
+      type: String,
+      enum: ["active", "inactive"],
+      default: "active",
+    },
     resetPasswordToken: String,
     resetPasswordExpire: Date,
   },

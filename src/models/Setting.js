@@ -17,6 +17,10 @@ const SettingSchema = new mongoose.Schema(
       type: String,
       maxlength: [500, "Description cannot be more than 500 characters"],
     },
+    isDefault: {
+      type: Boolean,
+      default: false,
+    },
   },
   {
     timestamps: true,
