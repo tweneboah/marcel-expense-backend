@@ -1,0 +1,18 @@
+2025-05-05 16:10:21 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-05-05 16:10:21 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-05-05 16:10:33 [HTTP]: GET /api/v1/settings [33m401[0m 3.122ms - {
+  "service": "expense-tracker"
+}
+2025-05-05 16:10:33 [HTTP]: GET /api/v1/settings [33m401[0m 0.308ms - {
+  "service": "expense-tracker"
+}
+2025-05-05 16:10:36 [HTTP]: GET /api/v1/settings [33m401[0m 0.600ms - {
+  "service": "expense-tracker"
+}
+2025-05-05 16:10:36 [HTTP]: GET /api/v1/settings [33m401[0m 0.263ms - {
+  "service": "expense-tracker"
+}
