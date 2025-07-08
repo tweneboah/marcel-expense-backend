@@ -2,6 +2,8 @@ import asyncHandler from "express-async-handler";
 import ErrorResponse from "../utils/errorResponse.js";
 import Expense from "../models/Expense.js";
 import Category from "../models/Category.js";
+import User from "../models/User.js";
+import Setting from "../models/Setting.js";
 import mongoose from "mongoose";
 
 /**
@@ -1116,6 +1118,13 @@ export const getDashboardSummary = asyncHandler(async (req, res, next) => {
     },
   ]);
 
+  // Get active users count
+  const activeUsersCount = await User.countDocuments({ status: "active" });
+
+  // Get current rate per km from settings
+  const ratePerKmSetting = await Setting.findOne({ key: "ratePerKm" });
+  const ratePerKm = ratePerKmSetting ? ratePerKmSetting.value : 0.3; // Default to 0.3 if not set
+
   // Format numbers to 2 decimal places
   const formatMetrics = (metrics) => {
     if (metrics.length === 0) {
@@ -1153,6 +1162,10 @@ export const getDashboardSummary = asyncHandler(async (req, res, next) => {
         { month: "long" }
       ),
       currentQuarter,
+    },
+    settings: {
+      activeUsers: activeUsersCount,
+      ratePerKm: ratePerKm,
     },
     currency: "CHF", // Using Swiss Francs as specified in requirements
   };
