@@ -1,0 +1,24 @@
+2025-08-28 08:45:27 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-08-28 08:45:27 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-08-28 08:45:27 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker2",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-08-28 08:45:27 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 25,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-08-28 08:45:27 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-08-28 08:45:28 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
